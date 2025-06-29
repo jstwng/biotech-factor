@@ -14,37 +14,59 @@ RET_DIR = DATA_RAW / "returns"
 CONST_DIR = DATA_RAW / "constituents"
 
 
+def _month_end(idx: pd.DatetimeIndex) -> pd.DatetimeIndex:
+    """Normalize any monthly-stamp index to calendar month-end."""
+    return pd.DatetimeIndex(idx).tz_localize(None).to_period("M").to_timestamp(how="end").normalize()
+
+
 def _monthly_returns(tickers: list[str], start: str, end: str) -> pd.DataFrame:
     """Download monthly Adj Close, return long-form DataFrame [date, ticker, return]."""
-    data = yf.download(
-        tickers=tickers,
-        start=start,
-        end=end,
-        interval="1mo",
-        auto_adjust=False,
-        progress=False,
-        group_by="ticker",
-        threads=True,
-    )
+    try:
+        data = yf.download(
+            tickers=tickers,
+            start=start,
+            end=end,
+            interval="1mo",
+            auto_adjust=False,
+            progress=False,
+            group_by="ticker",
+            threads=True,
+        )
+    except Exception as e:  # network / bulk failure
+        log.warning("yf.download failed for batch of %d: %s", len(tickers), e)
+        return pd.DataFrame(columns=["date", "ticker", "return"])
+
     rows: list[pd.DataFrame] = []
+    if data is None or data.empty:
+        return pd.DataFrame(columns=["date", "ticker", "return"])
+
+    def _push(ticker: str, series: pd.Series) -> None:
+        s = pd.to_numeric(series, errors="coerce").dropna()
+        if len(s) < 2:
+            return
+        ret = s.pct_change().dropna()
+        if ret.empty:
+            return
+        rows.append(pd.DataFrame({
+            "date": _month_end(ret.index),
+            "ticker": ticker,
+            "return": ret.values,
+        }))
+
     if isinstance(data.columns, pd.MultiIndex):
         tickers_with_data = list({t for t, _ in data.columns})
         for tkr in tickers_with_data:
             try:
-                s = data[tkr]["Adj Close"].dropna()
+                _push(tkr, data[tkr]["Adj Close"])
             except KeyError:
                 continue
-            ret = s.pct_change().dropna()
-            rows.append(pd.DataFrame({"date": ret.index, "ticker": tkr, "return": ret.values}))
     else:
-        s = data["Adj Close"].dropna()
-        ret = s.pct_change().dropna()
-        rows.append(pd.DataFrame({"date": ret.index, "ticker": tickers[0], "return": ret.values}))
+        if "Adj Close" in data.columns:
+            _push(tickers[0], data["Adj Close"])
+
     if not rows:
         return pd.DataFrame(columns=["date", "ticker", "return"])
-    out = pd.concat(rows, ignore_index=True)
-    out["date"] = pd.to_datetime(out["date"]).dt.to_period("M").dt.to_timestamp("M")
-    return out
+    return pd.concat(rows, ignore_index=True)
 
 
 def main() -> None:

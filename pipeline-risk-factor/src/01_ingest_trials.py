@@ -32,6 +32,9 @@ def _today_tag() -> str:
     return date.today().isoformat()
 
 
+STUDY_TYPE_AGG = {"INTERVENTIONAL": "studyType:int", "OBSERVATIONAL": "studyType:obs"}
+
+
 def query_sponsor(
     base_url: str,
     sponsor: str,
@@ -42,11 +45,12 @@ def query_sponsor(
     """Page through /studies for a sponsor. Returns list of raw study dicts."""
     out: list[dict] = []
     page_token: str | None = None
+    agg = STUDY_TYPE_AGG.get(study_type.upper(), "studyType:int")
     while True:
         params = {
             "query.spons": sponsor,
             "filter.overallStatus": STATUS_FILTER,
-            "filter.studyType": study_type,
+            "aggFilters": agg,
             "fields": ",".join(fields),
             "pageSize": 1000,
             "format": "json",

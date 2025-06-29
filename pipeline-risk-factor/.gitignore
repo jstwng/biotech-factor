@@ -3,15 +3,3 @@ __pycache__/
 .pytest_cache/
 .venv/
 .DS_Store
-data/raw/**/*.json
-data/raw/**/*.csv
-data/raw/**/*.zip
-data/processed/*.parquet
-data/processed/*.csv
-output/tables/*.md
-output/figures/*.png
-output/*.json
-!data/raw/**/.gitkeep
-!data/processed/.gitkeep
-!output/tables/.gitkeep
-!output/figures/.gitkeep

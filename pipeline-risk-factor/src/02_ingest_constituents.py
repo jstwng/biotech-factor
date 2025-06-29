@@ -51,7 +51,7 @@ def _parse_ibb(path: Path) -> pd.DataFrame:
     df.columns = [c.strip() for c in df.columns]
     rename = {"Ticker": "ticker", "Name": "company_name", "Weight (%)": "weight", "Sector": "sector"}
     df = df.rename(columns={k: v for k, v in rename.items() if k in df.columns})
-    df = df[df["ticker"].astype(str).str.match(r"^[A-Z.\-]+$", na=False)]
+    df = df[df["ticker"].astype(str).str.match(r"^[A-Z][A-Z.\-]*$", na=False)]
     df["weight"] = pd.to_numeric(df["weight"], errors="coerce")
     return df[["ticker", "company_name", "weight"]].dropna(subset=["ticker"])
 
@@ -61,13 +61,21 @@ def _parse_xbi(path: Path) -> pd.DataFrame:
         df = pd.read_excel(path, header=None)
     else:
         df = pd.read_csv(path, header=None)
-    # SSGA files have a ~4-line preamble before the header row (Ticker, Name, ...).
-    header_idx = df.index[df.iloc[:, 0].astype(str).str.lower() == "ticker"][0]
+    # SSGA files have a ~4-line preamble before the header row. The header row
+    # contains the literal token "Ticker" in some column (not always col 0).
+    header_idx = None
+    for i in range(min(20, len(df))):
+        row_vals = [str(v).strip().lower() for v in df.iloc[i].values]
+        if "ticker" in row_vals and "name" in row_vals:
+            header_idx = i
+            break
+    if header_idx is None:
+        raise ValueError(f"could not find header row in {path}")
     df.columns = df.iloc[header_idx].astype(str).str.strip()
     df = df.iloc[header_idx + 1 :].reset_index(drop=True)
     rename_map = {"Ticker": "ticker", "Name": "company_name", "Weight": "weight", "Sector": "sector"}
     df = df.rename(columns={k: v for k, v in rename_map.items() if k in df.columns})
-    df = df[df["ticker"].astype(str).str.match(r"^[A-Z.\-]+$", na=False)]
+    df = df[df["ticker"].astype(str).str.match(r"^[A-Z][A-Z.\-]*$", na=False)]
     df["weight"] = pd.to_numeric(df["weight"], errors="coerce")
     return df[["ticker", "company_name", "weight"]].dropna(subset=["ticker"])
 

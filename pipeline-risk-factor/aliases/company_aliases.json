@@ -1,1 +1,2984 @@
-{}
+{
+  "AARD": {
+    "aliases": [
+      "AARDVARK THERAPEUTICS INC",
+      "Aardvark Inc",
+      "Aardvark Therapeutics",
+      "Aardvark Therapeutics Inc",
+      "aardvark inc",
+      "aardvark therapeutics",
+      "aardvark therapeutics inc"
+    ],
+    "canonical_name": "AARDVARK THERAPEUTICS INC"
+  },
+  "ABBV": {
+    "aliases": [
+      "ABBVIE INC",
+      "Abbvie",
+      "Abbvie Inc",
+      "abbvie",
+      "abbvie inc"
+    ],
+    "canonical_name": "ABBVIE INC"
+  },
+  "ABCL": {
+    "aliases": [
+      "ABCELLERA BIOLOGICS INC",
+      "Abcellera Biologics",
+      "Abcellera Biologics Inc",
+      "abcellera biologics",
+      "abcellera biologics inc"
+    ],
+    "canonical_name": "ABCELLERA BIOLOGICS INC"
+  },
+  "ABSI": {
+    "aliases": [
+      "ABSCI CORP",
+      "Absci",
+      "Absci Corp",
+      "absci",
+      "absci corp"
+    ],
+    "canonical_name": "ABSCI CORP"
+  },
+  "ABUS": {
+    "aliases": [
+      "ARBUTUS BIOPHARMA CORP",
+      "Arbutus Biopharma",
+      "Arbutus Biopharma Corp",
+      "arbutus biopharma",
+      "arbutus biopharma corp"
+    ],
+    "canonical_name": "ARBUTUS BIOPHARMA CORP"
+  },
+  "ABVX": {
+    "aliases": [
+      "ABIVAX AMERICAN DEPOSITARY SHARES",
+      "Abivax American Depositary Shares",
+      "abivax american depositary shares"
+    ],
+    "canonical_name": "ABIVAX AMERICAN DEPOSITARY SHARES"
+  },
+  "ACAD": {
+    "aliases": [
+      "ACADIA PHARMACEUTICALS INC",
+      "Acadia Inc",
+      "Acadia Pharmaceuticals",
+      "Acadia Pharmaceuticals Inc",
+      "acadia inc",
+      "acadia pharmaceuticals",
+      "acadia pharmaceuticals inc"
+    ],
+    "canonical_name": "ACADIA PHARMACEUTICALS INC"
+  },
+  "ACIU": {
+    "aliases": [
+      "AC IMMUNE SA",
+      "Ac Immune",
+      "Ac Immune Sa",
+      "ac immune",
+      "ac immune sa"
+    ],
+    "canonical_name": "AC IMMUNE SA"
+  },
+  "ACLX": {
+    "aliases": [
+      "ARCELLX INC",
+      "Arcellx",
+      "Arcellx Inc",
+      "arcellx",
+      "arcellx inc"
+    ],
+    "canonical_name": "ARCELLX INC"
+  },
+  "ACRS": {
+    "aliases": [
+      "ACLARIS THERAPEUTICS INC",
+      "Aclaris Inc",
+      "Aclaris Therapeutics",
+      "Aclaris Therapeutics Inc",
+      "aclaris inc",
+      "aclaris therapeutics",
+      "aclaris therapeutics inc"
+    ],
+    "canonical_name": "ACLARIS THERAPEUTICS INC"
+  },
+  "ADCT": {
+    "aliases": [
+      "ADC THERAPEUTICS SA",
+      "Adc Sa",
+      "Adc Therapeutics",
+      "Adc Therapeutics Sa",
+      "adc sa",
+      "adc therapeutics",
+      "adc therapeutics sa"
+    ],
+    "canonical_name": "ADC THERAPEUTICS SA"
+  },
+  "ADMA": {
+    "aliases": [
+      "ADMA BIOLOGICS INC",
+      "Adma Biologics",
+      "Adma Biologics Inc",
+      "adma biologics",
+      "adma biologics inc"
+    ],
+    "canonical_name": "ADMA BIOLOGICS INC"
+  },
+  "ADPT": {
+    "aliases": [
+      "ADAPTIVE BIOTECHNOLOGIES CORP",
+      "Adaptive Biotechnologies",
+      "Adaptive Biotechnologies Corp",
+      "adaptive biotechnologies",
+      "adaptive biotechnologies corp"
+    ],
+    "canonical_name": "ADAPTIVE BIOTECHNOLOGIES CORP"
+  },
+  "ADRO": {
+    "aliases": [
+      "CHINOOK THERAPEUTICS INC",
+      "Chinook Inc",
+      "Chinook Therapeutics",
+      "Chinook Therapeutics Inc",
+      "chinook inc",
+      "chinook therapeutics",
+      "chinook therapeutics inc"
+    ],
+    "canonical_name": "CHINOOK THERAPEUTICS INC"
+  },
+  "AGIO": {
+    "aliases": [
+      "AGIOS PHARMACEUTICALS INC",
+      "Agios Inc",
+      "Agios Pharmaceuticals",
+      "Agios Pharmaceuticals Inc",
+      "agios inc",
+      "agios pharmaceuticals",
+      "agios pharmaceuticals inc"
+    ],
+    "canonical_name": "AGIOS PHARMACEUTICALS INC"
+  },
+  "AKBA": {
+    "aliases": [
+      "AKEBIA THERAPEUTICS INC",
+      "Akebia Inc",
+      "Akebia Therapeutics",
+      "Akebia Therapeutics Inc",
+      "akebia inc",
+      "akebia therapeutics",
+      "akebia therapeutics inc"
+    ],
+    "canonical_name": "AKEBIA THERAPEUTICS INC"
+  },
+  "AKE": {
+    "aliases": [
+      "AKERO THERAPEUTICS CVR",
+      "Akero Cvr",
+      "Akero Therapeutics Cvr",
+      "akero cvr",
+      "akero therapeutics cvr"
+    ],
+    "canonical_name": "AKERO THERAPEUTICS CVR"
+  },
+  "ALKS": {
+    "aliases": [
+      "ALKERMES",
+      "Alkermes",
+      "alkermes"
+    ],
+    "canonical_name": "ALKERMES"
+  },
+  "ALLO": {
+    "aliases": [
+      "ALLOGENE THERAPEUTICS INC",
+      "Allogene Inc",
+      "Allogene Therapeutics",
+      "Allogene Therapeutics Inc",
+      "allogene inc",
+      "allogene therapeutics",
+      "allogene therapeutics inc"
+    ],
+    "canonical_name": "ALLOGENE THERAPEUTICS INC"
+  },
+  "ALMS": {
+    "aliases": [
+      "ALUMIS INC",
+      "Alumis",
+      "Alumis Inc",
+      "alumis",
+      "alumis inc"
+    ],
+    "canonical_name": "ALUMIS INC"
+  },
+  "ALNY": {
+    "aliases": [
+      "ALNYLAM PHARMACEUTICALS INC",
+      "Alnylam Inc",
+      "Alnylam Pharmaceuticals",
+      "Alnylam Pharmaceuticals Inc",
+      "alnylam inc",
+      "alnylam pharmaceuticals",
+      "alnylam pharmaceuticals inc"
+    ],
+    "canonical_name": "ALNYLAM PHARMACEUTICALS INC"
+  },
+  "ALT": {
+    "aliases": [
+      "ALTIMMUNE INC",
+      "Altimmune",
+      "Altimmune Inc",
+      "altimmune",
+      "altimmune inc"
+    ],
+    "canonical_name": "ALTIMMUNE INC"
+  },
+  "ALVO": {
+    "aliases": [
+      "ALVOTECH SA",
+      "Alvotech",
+      "Alvotech Sa",
+      "alvotech",
+      "alvotech sa"
+    ],
+    "canonical_name": "ALVOTECH SA"
+  },
+  "AMGN": {
+    "aliases": [
+      "AMGEN INC",
+      "Amgen",
+      "Amgen Inc",
+      "amgen",
+      "amgen inc"
+    ],
+    "canonical_name": "AMGEN INC"
+  },
+  "AMLX": {
+    "aliases": [
+      "AMYLYX PHARMACEUTICALS INC",
+      "Amylyx Inc",
+      "Amylyx Pharmaceuticals",
+      "Amylyx Pharmaceuticals Inc",
+      "amylyx inc",
+      "amylyx pharmaceuticals",
+      "amylyx pharmaceuticals inc"
+    ],
+    "canonical_name": "AMYLYX PHARMACEUTICALS INC"
+  },
+  "ANAB": {
+    "aliases": [
+      "ANAPTYSBIO INC",
+      "Anaptysbio",
+      "Anaptysbio Inc",
+      "anaptysbio",
+      "anaptysbio inc"
+    ],
+    "canonical_name": "ANAPTYSBIO INC"
+  },
+  "ANNX": {
+    "aliases": [
+      "ANNEXON INC",
+      "Annexon",
+      "Annexon Inc",
+      "annexon",
+      "annexon inc"
+    ],
+    "canonical_name": "ANNEXON INC"
+  },
+  "ANRO": {
+    "aliases": [
+      "ALTO NEUROSCIENCE INC",
+      "Alto Neuroscience",
+      "Alto Neuroscience Inc",
+      "alto neuroscience",
+      "alto neuroscience inc"
+    ],
+    "canonical_name": "ALTO NEUROSCIENCE INC"
+  },
+  "APGE": {
+    "aliases": [
+      "APOGEE THERAPEUTICS INC",
+      "Apogee Inc",
+      "Apogee Therapeutics",
+      "Apogee Therapeutics Inc",
+      "apogee inc",
+      "apogee therapeutics",
+      "apogee therapeutics inc"
+    ],
+    "canonical_name": "APOGEE THERAPEUTICS INC"
+  },
+  "APLS": {
+    "aliases": [
+      "APELLIS PHARMACEUTICALS INC",
+      "Apellis Inc",
+      "Apellis Pharmaceuticals",
+      "Apellis Pharmaceuticals Inc",
+      "apellis inc",
+      "apellis pharmaceuticals",
+      "apellis pharmaceuticals inc"
+    ],
+    "canonical_name": "APELLIS PHARMACEUTICALS INC"
+  },
+  "ARCT": {
+    "aliases": [
+      "ARCTURUS THERAPEUTICS HOLDINGS INC",
+      "Arcturus Holdings Inc",
+      "Arcturus Therapeutics Holdings",
+      "Arcturus Therapeutics Holdings Inc",
+      "arcturus holdings inc",
+      "arcturus therapeutics holdings",
+      "arcturus therapeutics holdings inc"
+    ],
+    "canonical_name": "ARCTURUS THERAPEUTICS HOLDINGS INC"
+  },
+  "ARDX": {
+    "aliases": [
+      "ARDELYX INC",
+      "Ardelyx",
+      "Ardelyx Inc",
+      "ardelyx",
+      "ardelyx inc"
+    ],
+    "canonical_name": "ARDELYX INC"
+  },
+  "ARGX": {
+    "aliases": [
+      "ARGENX SE ADR",
+      "Argenx Se Adr",
+      "argenx se adr"
+    ],
+    "canonical_name": "ARGENX SE ADR"
+  },
+  "ARQT": {
+    "aliases": [
+      "ARCUTIS BIOTHERAPEUTICS INC",
+      "Arcutis Biotherapeutics",
+      "Arcutis Biotherapeutics Inc",
+      "arcutis biotherapeutics",
+      "arcutis biotherapeutics inc"
+    ],
+    "canonical_name": "ARCUTIS BIOTHERAPEUTICS INC"
+  },
+  "ARVN": {
+    "aliases": [
+      "ARVINAS INC",
+      "Arvinas",
+      "Arvinas Inc",
+      "arvinas",
+      "arvinas inc"
+    ],
+    "canonical_name": "ARVINAS INC"
+  },
+  "ARWR": {
+    "aliases": [
+      "ARROWHEAD PHARMACEUTICALS INC",
+      "Arrowhead Inc",
+      "Arrowhead Pharmaceuticals",
+      "Arrowhead Pharmaceuticals Inc",
+      "arrowhead inc",
+      "arrowhead pharmaceuticals",
+      "arrowhead pharmaceuticals inc"
+    ],
+    "canonical_name": "ARROWHEAD PHARMACEUTICALS INC"
+  },
+  "ASND": {
+    "aliases": [
+      "ASCENDIS PHARMA ADR REPRESENTING",
+      "Ascendis Adr Representing",
+      "Ascendis Pharma Adr Representing",
+      "ascendis adr representing",
+      "ascendis pharma adr representing"
+    ],
+    "canonical_name": "ASCENDIS PHARMA ADR REPRESENTING"
+  },
+  "ATAI": {
+    "aliases": [
+      "ATAIBECKLEY INC",
+      "Ataibeckley",
+      "Ataibeckley Inc",
+      "ataibeckley",
+      "ataibeckley inc"
+    ],
+    "canonical_name": "ATAIBECKLEY INC"
+  },
+  "AUPH": {
+    "aliases": [
+      "AURINIA PHARMACEUTICALS INC",
+      "Aurinia Inc",
+      "Aurinia Pharmaceuticals",
+      "Aurinia Pharmaceuticals Inc",
+      "aurinia inc",
+      "aurinia pharmaceuticals",
+      "aurinia pharmaceuticals inc"
+    ],
+    "canonical_name": "AURINIA PHARMACEUTICALS INC"
+  },
+  "AURA": {
+    "aliases": [
+      "AURA BIOSCIENCES INC",
+      "Aura Biosciences",
+      "Aura Biosciences Inc",
+      "Aura Inc",
+      "aura biosciences",
+      "aura biosciences inc",
+      "aura inc"
+    ],
+    "canonical_name": "AURA BIOSCIENCES INC"
+  },
+  "AUTL": {
+    "aliases": [
+      "AUTOLUS THERAPEUTICS ADR PLC",
+      "Autolus Adr Plc",
+      "Autolus Therapeutics Adr",
+      "Autolus Therapeutics Adr Plc",
+      "autolus adr plc",
+      "autolus therapeutics adr",
+      "autolus therapeutics adr plc"
+    ],
+    "canonical_name": "AUTOLUS THERAPEUTICS ADR PLC"
+  },
+  "AVBP": {
+    "aliases": [
+      "ARRIVENT BIOPHARMA INC",
+      "Arrivent Biopharma",
+      "Arrivent Biopharma Inc",
+      "arrivent biopharma",
+      "arrivent biopharma inc"
+    ],
+    "canonical_name": "ARRIVENT BIOPHARMA INC"
+  },
+  "AVIR": {
+    "aliases": [
+      "ATEA PHARMACEUTICALS INC",
+      "Atea Inc",
+      "Atea Pharmaceuticals",
+      "Atea Pharmaceuticals Inc",
+      "atea inc",
+      "atea pharmaceuticals",
+      "atea pharmaceuticals inc"
+    ],
+    "canonical_name": "ATEA PHARMACEUTICALS INC"
+  },
+  "AVXL": {
+    "aliases": [
+      "ANAVEX LIFE SCIENCES CORP",
+      "Anavex Life Corp",
+      "Anavex Life Sciences",
+      "Anavex Life Sciences Corp",
+      "anavex life corp",
+      "anavex life sciences",
+      "anavex life sciences corp"
+    ],
+    "canonical_name": "ANAVEX LIFE SCIENCES CORP"
+  },
+  "AXSM": {
+    "aliases": [
+      "AXSOME THERAPEUTICS INC",
+      "Axsome Inc",
+      "Axsome Therapeutics",
+      "Axsome Therapeutics Inc",
+      "axsome inc",
+      "axsome therapeutics",
+      "axsome therapeutics inc"
+    ],
+    "canonical_name": "AXSOME THERAPEUTICS INC"
+  },
+  "BBIO": {
+    "aliases": [
+      "BRIDGEBIO PHARMA INC",
+      "Bridgebio Inc",
+      "Bridgebio Pharma",
+      "Bridgebio Pharma Inc",
+      "bridgebio inc",
+      "bridgebio pharma",
+      "bridgebio pharma inc"
+    ],
+    "canonical_name": "BRIDGEBIO PHARMA INC"
+  },
+  "BBOT": {
+    "aliases": [
+      "BRIDGEBIO ONCOLOGY THERAPEUTICS IN",
+      "Bridgebio Oncology In",
+      "Bridgebio Oncology Therapeutics In",
+      "bridgebio oncology in",
+      "bridgebio oncology therapeutics in"
+    ],
+    "canonical_name": "BRIDGEBIO ONCOLOGY THERAPEUTICS IN"
+  },
+  "BCAX": {
+    "aliases": [
+      "BICARA THERAPEUTICS INC",
+      "Bicara Inc",
+      "Bicara Therapeutics",
+      "Bicara Therapeutics Inc",
+      "bicara inc",
+      "bicara therapeutics",
+      "bicara therapeutics inc"
+    ],
+    "canonical_name": "BICARA THERAPEUTICS INC"
+  },
+  "BCRX": {
+    "aliases": [
+      "BIOCRYST PHARMACEUTICALS INC",
+      "Biocryst Inc",
+      "Biocryst Pharmaceuticals",
+      "Biocryst Pharmaceuticals Inc",
+      "biocryst inc",
+      "biocryst pharmaceuticals",
+      "biocryst pharmaceuticals inc"
+    ],
+    "canonical_name": "BIOCRYST PHARMACEUTICALS INC"
+  },
+  "BCYC": {
+    "aliases": [
+      "BICYCLE THERAPEUTICS ADR PLC",
+      "Bicycle Adr Plc",
+      "Bicycle Therapeutics Adr",
+      "Bicycle Therapeutics Adr Plc",
+      "bicycle adr plc",
+      "bicycle therapeutics adr",
+      "bicycle therapeutics adr plc"
+    ],
+    "canonical_name": "BICYCLE THERAPEUTICS ADR PLC"
+  },
+  "BDTX": {
+    "aliases": [
+      "BLACK DIAMOND THERAPEUTICS INC",
+      "Black Diamond Inc",
+      "Black Diamond Therapeutics",
+      "Black Diamond Therapeutics Inc",
+      "black diamond inc",
+      "black diamond therapeutics",
+      "black diamond therapeutics inc"
+    ],
+    "canonical_name": "BLACK DIAMOND THERAPEUTICS INC"
+  },
+  "BEAM": {
+    "aliases": [
+      "BEAM THERAPEUTICS INC",
+      "Beam Inc",
+      "Beam Therapeutics",
+      "Beam Therapeutics Inc",
+      "beam inc",
+      "beam therapeutics",
+      "beam therapeutics inc"
+    ],
+    "canonical_name": "BEAM THERAPEUTICS INC"
+  },
+  "BHVN": {
+    "aliases": [
+      "BIOHAVEN LTD",
+      "Biohaven",
+      "Biohaven Ltd",
+      "biohaven",
+      "biohaven ltd"
+    ],
+    "canonical_name": "BIOHAVEN LTD"
+  },
+  "BIIB": {
+    "aliases": [
+      "BIOGEN INC",
+      "Biogen",
+      "Biogen Inc",
+      "biogen",
+      "biogen inc"
+    ],
+    "canonical_name": "BIOGEN INC"
+  },
+  "BIOA": {
+    "aliases": [
+      "BIOAGE LABS INC",
+      "Bioage Labs",
+      "Bioage Labs Inc",
+      "bioage labs",
+      "bioage labs inc"
+    ],
+    "canonical_name": "BIOAGE LABS INC"
+  },
+  "BMRN": {
+    "aliases": [
+      "BIOMARIN PHARMACEUTICAL INC",
+      "Biomarin Inc",
+      "Biomarin Pharmaceutical",
+      "Biomarin Pharmaceutical Inc",
+      "biomarin inc",
+      "biomarin pharmaceutical",
+      "biomarin pharmaceutical inc"
+    ],
+    "canonical_name": "BIOMARIN PHARMACEUTICAL INC"
+  },
+  "BNTX": {
+    "aliases": [
+      "BIONTECH SE ADR",
+      "Biontech Se Adr",
+      "biontech se adr"
+    ],
+    "canonical_name": "BIONTECH SE ADR"
+  },
+  "BRKR": {
+    "aliases": [
+      "BRUKER CORP",
+      "Bruker",
+      "Bruker Corp",
+      "bruker",
+      "bruker corp"
+    ],
+    "canonical_name": "BRUKER CORP"
+  },
+  "CABA": {
+    "aliases": [
+      "CABALETTA BIO INC",
+      "Cabaletta Bio",
+      "Cabaletta Bio Inc",
+      "cabaletta bio",
+      "cabaletta bio inc"
+    ],
+    "canonical_name": "CABALETTA BIO INC"
+  },
+  "CADL": {
+    "aliases": [
+      "CANDEL THERAPEUTICS INC",
+      "Candel Inc",
+      "Candel Therapeutics",
+      "Candel Therapeutics Inc",
+      "candel inc",
+      "candel therapeutics",
+      "candel therapeutics inc"
+    ],
+    "canonical_name": "CANDEL THERAPEUTICS INC"
+  },
+  "CAI": {
+    "aliases": [
+      "CARIS LIFE SCIENCES INC",
+      "Caris Life Inc",
+      "Caris Life Sciences",
+      "Caris Life Sciences Inc",
+      "caris life inc",
+      "caris life sciences",
+      "caris life sciences inc"
+    ],
+    "canonical_name": "CARIS LIFE SCIENCES INC"
+  },
+  "CAPR": {
+    "aliases": [
+      "CAPRICOR THERAPEUTICS INC",
+      "Capricor Inc",
+      "Capricor Therapeutics",
+      "Capricor Therapeutics Inc",
+      "capricor inc",
+      "capricor therapeutics",
+      "capricor therapeutics inc"
+    ],
+    "canonical_name": "CAPRICOR THERAPEUTICS INC"
+  },
+  "CATX": {
+    "aliases": [
+      "PERSPECTIVE THERAPEUTICS INC",
+      "Perspective Inc",
+      "Perspective Therapeutics",
+      "Perspective Therapeutics Inc",
+      "perspective inc",
+      "perspective therapeutics",
+      "perspective therapeutics inc"
+    ],
+    "canonical_name": "PERSPECTIVE THERAPEUTICS INC"
+  },
+  "CCCC": {
+    "aliases": [
+      "C4 Inc",
+      "C4 THERAPEUTICS INC",
+      "C4 Therapeutics",
+      "C4 Therapeutics Inc",
+      "c4 inc",
+      "c4 therapeutics",
+      "c4 therapeutics inc"
+    ],
+    "canonical_name": "C4 THERAPEUTICS INC"
+  },
+  "CDNA": {
+    "aliases": [
+      "CAREDX INC",
+      "Caredx",
+      "Caredx Inc",
+      "caredx",
+      "caredx inc"
+    ],
+    "canonical_name": "CAREDX INC"
+  },
+  "CDXS": {
+    "aliases": [
+      "CODEXIS INC",
+      "Codexis",
+      "Codexis Inc",
+      "codexis",
+      "codexis inc"
+    ],
+    "canonical_name": "CODEXIS INC"
+  },
+  "CELC": {
+    "aliases": [
+      "CELCUITY INC",
+      "Celcuity",
+      "Celcuity Inc",
+      "celcuity",
+      "celcuity inc"
+    ],
+    "canonical_name": "CELCUITY INC"
+  },
+  "CGEM": {
+    "aliases": [
+      "CULLINAN THERAPEUTICS INC",
+      "Cullinan Inc",
+      "Cullinan Therapeutics",
+      "Cullinan Therapeutics Inc",
+      "cullinan inc",
+      "cullinan therapeutics",
+      "cullinan therapeutics inc"
+    ],
+    "canonical_name": "CULLINAN THERAPEUTICS INC"
+  },
+  "CGON": {
+    "aliases": [
+      "CG ONCOLOGY INC",
+      "Cg Oncology",
+      "Cg Oncology Inc",
+      "cg oncology",
+      "cg oncology inc"
+    ],
+    "canonical_name": "CG ONCOLOGY INC"
+  },
+  "CLDX": {
+    "aliases": [
+      "CELLDEX THERAPEUTICS INC",
+      "Celldex Inc",
+      "Celldex Therapeutics",
+      "Celldex Therapeutics Inc",
+      "celldex inc",
+      "celldex therapeutics",
+      "celldex therapeutics inc"
+    ],
+    "canonical_name": "CELLDEX THERAPEUTICS INC"
+  },
+  "CLLS": {
+    "aliases": [
+      "CELLECTIS ADR REPRESENTING SA",
+      "Cellectis Adr Representing",
+      "Cellectis Adr Representing Sa",
+      "cellectis adr representing",
+      "cellectis adr representing sa"
+    ],
+    "canonical_name": "CELLECTIS ADR REPRESENTING SA"
+  },
+  "CMPS": {
+    "aliases": [
+      "COMPASS PATHWAYS ADR PLC",
+      "Compass Pathways Adr",
+      "Compass Pathways Adr Plc",
+      "compass pathways adr",
+      "compass pathways adr plc"
+    ],
+    "canonical_name": "COMPASS PATHWAYS ADR PLC"
+  },
+  "CMPX": {
+    "aliases": [
+      "COMPASS THERAPEUTICS INC",
+      "Compass Inc",
+      "Compass Therapeutics",
+      "Compass Therapeutics Inc",
+      "compass inc",
+      "compass therapeutics",
+      "compass therapeutics inc"
+    ],
+    "canonical_name": "COMPASS THERAPEUTICS INC"
+  },
+  "CNTA": {
+    "aliases": [
+      "CENTESSA PHARMACEUTICALS AMERICAN",
+      "Centessa American",
+      "Centessa Pharmaceuticals American",
+      "centessa american",
+      "centessa pharmaceuticals american"
+    ],
+    "canonical_name": "CENTESSA PHARMACEUTICALS AMERICAN"
+  },
+  "COGT": {
+    "aliases": [
+      "COGENT BIOSCIENCES INC",
+      "Cogent Biosciences",
+      "Cogent Biosciences Inc",
+      "Cogent Inc",
+      "cogent biosciences",
+      "cogent biosciences inc",
+      "cogent inc"
+    ],
+    "canonical_name": "COGENT BIOSCIENCES INC"
+  },
+  "CPRX": {
+    "aliases": [
+      "CATALYST PHARMACEUTICALS INC",
+      "Catalyst Inc",
+      "Catalyst Pharmaceuticals",
+      "Catalyst Pharmaceuticals Inc",
+      "catalyst inc",
+      "catalyst pharmaceuticals",
+      "catalyst pharmaceuticals inc"
+    ],
+    "canonical_name": "CATALYST PHARMACEUTICALS INC"
+  },
+  "CRBU": {
+    "aliases": [
+      "CARIBOU BIOSCIENCES INC",
+      "Caribou Biosciences",
+      "Caribou Biosciences Inc",
+      "Caribou Inc",
+      "caribou biosciences",
+      "caribou biosciences inc",
+      "caribou inc"
+    ],
+    "canonical_name": "CARIBOU BIOSCIENCES INC"
+  },
+  "CRGX": {
+    "aliases": [
+      "CARGO THERAPEUTICS INC",
+      "Cargo Inc",
+      "Cargo Therapeutics",
+      "Cargo Therapeutics Inc",
+      "cargo inc",
+      "cargo therapeutics",
+      "cargo therapeutics inc"
+    ],
+    "canonical_name": "CARGO THERAPEUTICS INC"
+  },
+  "CRL": {
+    "aliases": [
+      "CHARLES RIVER LABORATORIES INTERNA",
+      "Charles River Laboratories Interna",
+      "charles river laboratories interna"
+    ],
+    "canonical_name": "CHARLES RIVER LABORATORIES INTERNA"
+  },
+  "CRNX": {
+    "aliases": [
+      "CRINETICS PHARMACEUTICALS INC",
+      "Crinetics Inc",
+      "Crinetics Pharmaceuticals",
+      "Crinetics Pharmaceuticals Inc",
+      "crinetics inc",
+      "crinetics pharmaceuticals",
+      "crinetics pharmaceuticals inc"
+    ],
+    "canonical_name": "CRINETICS PHARMACEUTICALS INC"
+  },
+  "CRSP": {
+    "aliases": [
+      "CRISPR THERAPEUTICS AG",
+      "Crispr Ag",
+      "Crispr Therapeutics Ag",
+      "crispr ag",
+      "crispr therapeutics ag"
+    ],
+    "canonical_name": "CRISPR THERAPEUTICS AG"
+  },
+  "CRVS": {
+    "aliases": [
+      "CORVUS PHARMACEUTICALS INC",
+      "Corvus Inc",
+      "Corvus Pharmaceuticals",
+      "Corvus Pharmaceuticals Inc",
+      "corvus inc",
+      "corvus pharmaceuticals",
+      "corvus pharmaceuticals inc"
+    ],
+    "canonical_name": "CORVUS PHARMACEUTICALS INC"
+  },
+  "CSTL": {
+    "aliases": [
+      "CASTLE BIOSCIENCES INC",
+      "Castle Biosciences",
+      "Castle Biosciences Inc",
+      "Castle Inc",
+      "castle biosciences",
+      "castle biosciences inc",
+      "castle inc"
+    ],
+    "canonical_name": "CASTLE BIOSCIENCES INC"
+  },
+  "CTKB": {
+    "aliases": [
+      "CYTEK BIOSCIENCES INC",
+      "Cytek Biosciences",
+      "Cytek Biosciences Inc",
+      "Cytek Inc",
+      "cytek biosciences",
+      "cytek biosciences inc",
+      "cytek inc"
+    ],
+    "canonical_name": "CYTEK BIOSCIENCES INC"
+  },
+  "CTMX": {
+    "aliases": [
+      "CYTOMX THERAPEUTICS INC",
+      "Cytomx Inc",
+      "Cytomx Therapeutics",
+      "Cytomx Therapeutics Inc",
+      "cytomx inc",
+      "cytomx therapeutics",
+      "cytomx therapeutics inc"
+    ],
+    "canonical_name": "CYTOMX THERAPEUTICS INC"
+  },
+  "CTNM": {
+    "aliases": [
+      "CONTINEUM THERAPEUTICS INC CLASS A",
+      "Contineum Inc Class A",
+      "Contineum Therapeutics Inc Class A",
+      "contineum inc class a",
+      "contineum therapeutics inc class a"
+    ],
+    "canonical_name": "CONTINEUM THERAPEUTICS INC CLASS A"
+  },
+  "CYTK": {
+    "aliases": [
+      "CYTOKINETICS INC",
+      "Cytokinetics",
+      "Cytokinetics Inc",
+      "cytokinetics",
+      "cytokinetics inc"
+    ],
+    "canonical_name": "CYTOKINETICS INC"
+  },
+  "DAWN": {
+    "aliases": [
+      "DAY ONE BIOPHARMACEUTICALS INC",
+      "Day One Biopharmaceuticals",
+      "Day One Biopharmaceuticals Inc",
+      "day one biopharmaceuticals",
+      "day one biopharmaceuticals inc"
+    ],
+    "canonical_name": "DAY ONE BIOPHARMACEUTICALS INC"
+  },
+  "DFTX": {
+    "aliases": [
+      "DEFINIUM THERAPEUTICS INC",
+      "Definium Inc",
+      "Definium Therapeutics",
+      "Definium Therapeutics Inc",
+      "definium inc",
+      "definium therapeutics",
+      "definium therapeutics inc"
+    ],
+    "canonical_name": "DEFINIUM THERAPEUTICS INC"
+  },
+  "DMRA": {
+    "aliases": [
+      "DAMORA THERAPEUTICS INC",
+      "Damora Inc",
+      "Damora Therapeutics",
+      "Damora Therapeutics Inc",
+      "damora inc",
+      "damora therapeutics",
+      "damora therapeutics inc"
+    ],
+    "canonical_name": "DAMORA THERAPEUTICS INC"
+  },
+  "DNA": {
+    "aliases": [
+      "GINKGO BIOWORKS HOLDINGS INC CLASS",
+      "Ginkgo Bioworks Holdings Inc Class",
+      "ginkgo bioworks holdings inc class"
+    ],
+    "canonical_name": "GINKGO BIOWORKS HOLDINGS INC CLASS"
+  },
+  "DNLI": {
+    "aliases": [
+      "DENALI THERAPEUTICS INC",
+      "Denali Inc",
+      "Denali Therapeutics",
+      "Denali Therapeutics Inc",
+      "denali inc",
+      "denali therapeutics",
+      "denali therapeutics inc"
+    ],
+    "canonical_name": "DENALI THERAPEUTICS INC"
+  },
+  "DNTH": {
+    "aliases": [
+      "DIANTHUS THERAPEUTICS INC",
+      "Dianthus Inc",
+      "Dianthus Therapeutics",
+      "Dianthus Therapeutics Inc",
+      "dianthus inc",
+      "dianthus therapeutics",
+      "dianthus therapeutics inc"
+    ],
+    "canonical_name": "DIANTHUS THERAPEUTICS INC"
+  },
+  "DSGN": {
+    "aliases": [
+      "DESIGN THERAPEUTICS INC",
+      "Design Inc",
+      "Design Therapeutics",
+      "Design Therapeutics Inc",
+      "design inc",
+      "design therapeutics",
+      "design therapeutics inc"
+    ],
+    "canonical_name": "DESIGN THERAPEUTICS INC"
+  },
+  "DYN": {
+    "aliases": [
+      "DYNE THERAPEUTICS INC",
+      "Dyne Inc",
+      "Dyne Therapeutics",
+      "Dyne Therapeutics Inc",
+      "dyne inc",
+      "dyne therapeutics",
+      "dyne therapeutics inc"
+    ],
+    "canonical_name": "DYNE THERAPEUTICS INC"
+  },
+  "EBS": {
+    "aliases": [
+      "EMERGENT BIOSOLUTIONS INC",
+      "Emergent Biosolutions",
+      "Emergent Biosolutions Inc",
+      "emergent biosolutions",
+      "emergent biosolutions inc"
+    ],
+    "canonical_name": "EMERGENT BIOSOLUTIONS INC"
+  },
+  "EDIT": {
+    "aliases": [
+      "EDITAS MEDICINE INC",
+      "Editas Medicine",
+      "Editas Medicine Inc",
+      "editas medicine",
+      "editas medicine inc"
+    ],
+    "canonical_name": "EDITAS MEDICINE INC"
+  },
+  "ELVN": {
+    "aliases": [
+      "ENLIVEN THERAPEUTICS INC",
+      "Enliven Inc",
+      "Enliven Therapeutics",
+      "Enliven Therapeutics Inc",
+      "enliven inc",
+      "enliven therapeutics",
+      "enliven therapeutics inc"
+    ],
+    "canonical_name": "ENLIVEN THERAPEUTICS INC"
+  },
+  "ENTA": {
+    "aliases": [
+      "ENANTA PHARMACEUTICALS INC",
+      "Enanta Inc",
+      "Enanta Pharmaceuticals",
+      "Enanta Pharmaceuticals Inc",
+      "enanta inc",
+      "enanta pharmaceuticals",
+      "enanta pharmaceuticals inc"
+    ],
+    "canonical_name": "ENANTA PHARMACEUTICALS INC"
+  },
+  "ERAS": {
+    "aliases": [
+      "ERASCA INC",
+      "Erasca",
+      "Erasca Inc",
+      "erasca",
+      "erasca inc"
+    ],
+    "canonical_name": "ERASCA INC"
+  },
+  "EWTX": {
+    "aliases": [
+      "EDGEWISE THERAPEUTICS INC",
+      "Edgewise Inc",
+      "Edgewise Therapeutics",
+      "Edgewise Therapeutics Inc",
+      "edgewise inc",
+      "edgewise therapeutics",
+      "edgewise therapeutics inc"
+    ],
+    "canonical_name": "EDGEWISE THERAPEUTICS INC"
+  },
+  "EXEL": {
+    "aliases": [
+      "EXELIXIS INC",
+      "Exelixis",
+      "Exelixis Inc",
+      "exelixis",
+      "exelixis inc"
+    ],
+    "canonical_name": "EXELIXIS INC"
+  },
+  "FDMT": {
+    "aliases": [
+      "4D MOLECULAR THERAPEUTICS INC",
+      "4D Molecular Inc",
+      "4D Molecular Therapeutics",
+      "4D Molecular Therapeutics Inc",
+      "4d molecular inc",
+      "4d molecular therapeutics",
+      "4d molecular therapeutics inc"
+    ],
+    "canonical_name": "4D MOLECULAR THERAPEUTICS INC"
+  },
+  "FHTX": {
+    "aliases": [
+      "FOGHORN THERAPEUTICS INC",
+      "Foghorn Inc",
+      "Foghorn Therapeutics",
+      "Foghorn Therapeutics Inc",
+      "foghorn inc",
+      "foghorn therapeutics",
+      "foghorn therapeutics inc"
+    ],
+    "canonical_name": "FOGHORN THERAPEUTICS INC"
+  },
+  "FLGT": {
+    "aliases": [
+      "FULGENT GENETICS INC",
+      "Fulgent Genetics",
+      "Fulgent Genetics Inc",
+      "fulgent genetics",
+      "fulgent genetics inc"
+    ],
+    "canonical_name": "FULGENT GENETICS INC"
+  },
+  "FOLD": {
+    "aliases": [
+      "AMICUS THERAPEUTICS INC",
+      "Amicus Inc",
+      "Amicus Therapeutics",
+      "Amicus Therapeutics Inc",
+      "amicus inc",
+      "amicus therapeutics",
+      "amicus therapeutics inc"
+    ],
+    "canonical_name": "AMICUS THERAPEUTICS INC"
+  },
+  "FTRE": {
+    "aliases": [
+      "FORTREA HOLDINGS INC",
+      "Fortrea Holdings",
+      "Fortrea Holdings Inc",
+      "fortrea holdings",
+      "fortrea holdings inc"
+    ],
+    "canonical_name": "FORTREA HOLDINGS INC"
+  },
+  "FULC": {
+    "aliases": [
+      "FULCRUM THERAPEUTICS INC",
+      "Fulcrum Inc",
+      "Fulcrum Therapeutics",
+      "Fulcrum Therapeutics Inc",
+      "fulcrum inc",
+      "fulcrum therapeutics",
+      "fulcrum therapeutics inc"
+    ],
+    "canonical_name": "FULCRUM THERAPEUTICS INC"
+  },
+  "GERN": {
+    "aliases": [
+      "GERON CORP",
+      "Geron",
+      "Geron Corp",
+      "geron",
+      "geron corp"
+    ],
+    "canonical_name": "GERON CORP"
+  },
+  "GHRS": {
+    "aliases": [
+      "GH RESEARCH PLC",
+      "Gh Research",
+      "Gh Research Plc",
+      "gh research",
+      "gh research plc"
+    ],
+    "canonical_name": "GH RESEARCH PLC"
+  },
+  "GILD": {
+    "aliases": [
+      "GILEAD SCIENCES INC",
+      "Gilead Inc",
+      "Gilead Sciences",
+      "Gilead Sciences Inc",
+      "gilead inc",
+      "gilead sciences",
+      "gilead sciences inc"
+    ],
+    "canonical_name": "GILEAD SCIENCES INC"
+  },
+  "GLPG": {
+    "aliases": [
+      "GALAPAGOS ADR REPRESENTING NV",
+      "Galapagos Adr Representing",
+      "Galapagos Adr Representing Nv",
+      "galapagos adr representing",
+      "galapagos adr representing nv"
+    ],
+    "canonical_name": "GALAPAGOS ADR REPRESENTING NV"
+  },
+  "GLUE": {
+    "aliases": [
+      "MONTE ROSA THERAPEUTICS INC",
+      "Monte Rosa Inc",
+      "Monte Rosa Therapeutics",
+      "Monte Rosa Therapeutics Inc",
+      "monte rosa inc",
+      "monte rosa therapeutics",
+      "monte rosa therapeutics inc"
+    ],
+    "canonical_name": "MONTE ROSA THERAPEUTICS INC"
+  },
+  "GMAB": {
+    "aliases": [
+      "GENMAB SPONSORED ADR",
+      "Genmab Sponsored Adr",
+      "genmab sponsored adr"
+    ],
+    "canonical_name": "GENMAB SPONSORED ADR"
+  },
+  "GOSS": {
+    "aliases": [
+      "GOSSAMER BIO INC",
+      "Gossamer Bio",
+      "Gossamer Bio Inc",
+      "gossamer bio",
+      "gossamer bio inc"
+    ],
+    "canonical_name": "GOSSAMER BIO INC"
+  },
+  "GPCR": {
+    "aliases": [
+      "STRUCTURE THERAPEUTICS ADR INC",
+      "Structure Adr Inc",
+      "Structure Therapeutics Adr",
+      "Structure Therapeutics Adr Inc",
+      "structure adr inc",
+      "structure therapeutics adr",
+      "structure therapeutics adr inc"
+    ],
+    "canonical_name": "STRUCTURE THERAPEUTICS ADR INC"
+  },
+  "GRAL": {
+    "aliases": [
+      "GRAIL INC",
+      "Grail",
+      "Grail Inc",
+      "grail",
+      "grail inc"
+    ],
+    "canonical_name": "GRAIL INC"
+  },
+  "GRFS": {
+    "aliases": [
+      "GRIFOLS ADR REPRESENTING ONE NON-V",
+      "Grifols Adr Representing One Non-V",
+      "grifols adr representing one non-v"
+    ],
+    "canonical_name": "GRIFOLS ADR REPRESENTING ONE NON-V"
+  },
+  "HALO": {
+    "aliases": [
+      "HALOZYME THERAPEUTICS INC",
+      "Halozyme Inc",
+      "Halozyme Therapeutics",
+      "Halozyme Therapeutics Inc",
+      "halozyme inc",
+      "halozyme therapeutics",
+      "halozyme therapeutics inc"
+    ],
+    "canonical_name": "HALOZYME THERAPEUTICS INC"
+  },
+  "HUMA": {
+    "aliases": [
+      "HUMACYTE INC",
+      "Humacyte",
+      "Humacyte Inc",
+      "humacyte",
+      "humacyte inc"
+    ],
+    "canonical_name": "HUMACYTE INC"
+  },
+  "IBRX": {
+    "aliases": [
+      "IMMUNITYBIO INC",
+      "Immunitybio",
+      "Immunitybio Inc",
+      "immunitybio",
+      "immunitybio inc"
+    ],
+    "canonical_name": "IMMUNITYBIO INC"
+  },
+  "IDYA": {
+    "aliases": [
+      "IDEAYA BIOSCIENCES INC",
+      "Ideaya Biosciences",
+      "Ideaya Biosciences Inc",
+      "Ideaya Inc",
+      "ideaya biosciences",
+      "ideaya biosciences inc",
+      "ideaya inc"
+    ],
+    "canonical_name": "IDEAYA BIOSCIENCES INC"
+  },
+  "ILMN": {
+    "aliases": [
+      "ILLUMINA INC",
+      "Illumina",
+      "Illumina Inc",
+      "illumina",
+      "illumina inc"
+    ],
+    "canonical_name": "ILLUMINA INC"
+  },
+  "IMCR": {
+    "aliases": [
+      "IMMUNOCORE HOLDINGS ADR PLC",
+      "Immunocore Holdings Adr",
+      "Immunocore Holdings Adr Plc",
+      "immunocore holdings adr",
+      "immunocore holdings adr plc"
+    ],
+    "canonical_name": "IMMUNOCORE HOLDINGS ADR PLC"
+  },
+  "IMMP": {
+    "aliases": [
+      "IMMUTEP ADS REPRESENTING LTD",
+      "Immutep Ads Representing",
+      "Immutep Ads Representing Ltd",
+      "immutep ads representing",
+      "immutep ads representing ltd"
+    ],
+    "canonical_name": "IMMUTEP ADS REPRESENTING LTD"
+  },
+  "IMNM": {
+    "aliases": [
+      "IMMUNOME INC",
+      "Immunome",
+      "Immunome Inc",
+      "immunome",
+      "immunome inc"
+    ],
+    "canonical_name": "IMMUNOME INC"
+  },
+  "IMRX": {
+    "aliases": [
+      "IMMUNEERING CORP CLASS A",
+      "Immuneering Corp Class A",
+      "immuneering corp class a"
+    ],
+    "canonical_name": "IMMUNEERING CORP CLASS A"
+  },
+  "IMVT": {
+    "aliases": [
+      "IMMUNOVANT INC",
+      "Immunovant",
+      "Immunovant Inc",
+      "immunovant",
+      "immunovant inc"
+    ],
+    "canonical_name": "IMMUNOVANT INC"
+  },
+  "INBX": {
+    "aliases": [
+      "INHIBRX BIOSCIENCES INC",
+      "Inhibrx Biosciences",
+      "Inhibrx Biosciences Inc",
+      "Inhibrx Inc",
+      "inhibrx biosciences",
+      "inhibrx biosciences inc",
+      "inhibrx inc"
+    ],
+    "canonical_name": "INHIBRX BIOSCIENCES INC"
+  },
+  "INCY": {
+    "aliases": [
+      "INCYTE CORP",
+      "Incyte",
+      "Incyte Corp",
+      "incyte",
+      "incyte corp"
+    ],
+    "canonical_name": "INCYTE CORP"
+  },
+  "INSM": {
+    "aliases": [
+      "INSMED INC",
+      "Insmed",
+      "Insmed Inc",
+      "insmed",
+      "insmed inc"
+    ],
+    "canonical_name": "INSMED INC"
+  },
+  "IONS": {
+    "aliases": [
+      "IONIS PHARMACEUTICALS INC",
+      "Ionis Inc",
+      "Ionis Pharmaceuticals",
+      "Ionis Pharmaceuticals Inc",
+      "ionis inc",
+      "ionis pharmaceuticals",
+      "ionis pharmaceuticals inc"
+    ],
+    "canonical_name": "IONIS PHARMACEUTICALS INC"
+  },
+  "IOVA": {
+    "aliases": [
+      "IOVANCE BIOTHERAPEUTICS INC",
+      "Iovance Biotherapeutics",
+      "Iovance Biotherapeutics Inc",
+      "iovance biotherapeutics",
+      "iovance biotherapeutics inc"
+    ],
+    "canonical_name": "IOVANCE BIOTHERAPEUTICS INC"
+  },
+  "IRON": {
+    "aliases": [
+      "DISC MEDICINE INC",
+      "Disc Medicine",
+      "Disc Medicine Inc",
+      "disc medicine",
+      "disc medicine inc"
+    ],
+    "canonical_name": "DISC MEDICINE INC"
+  },
+  "IRWD": {
+    "aliases": [
+      "IRONWOOD PHARMA INC CLASS A",
+      "Ironwood Inc Class A",
+      "Ironwood Pharma Inc Class A",
+      "ironwood inc class a",
+      "ironwood pharma inc class a"
+    ],
+    "canonical_name": "IRONWOOD PHARMA INC CLASS A"
+  },
+  "IVVD": {
+    "aliases": [
+      "INVIVYD INC",
+      "Invivyd",
+      "Invivyd Inc",
+      "invivyd",
+      "invivyd inc"
+    ],
+    "canonical_name": "INVIVYD INC"
+  },
+  "JANX": {
+    "aliases": [
+      "JANUX THERAPEUTICS INC",
+      "Janux Inc",
+      "Janux Therapeutics",
+      "Janux Therapeutics Inc",
+      "janux inc",
+      "janux therapeutics",
+      "janux therapeutics inc"
+    ],
+    "canonical_name": "JANUX THERAPEUTICS INC"
+  },
+  "KALV": {
+    "aliases": [
+      "KALVISTA PHARMACEUTICALS INC",
+      "Kalvista Inc",
+      "Kalvista Pharmaceuticals",
+      "Kalvista Pharmaceuticals Inc",
+      "kalvista inc",
+      "kalvista pharmaceuticals",
+      "kalvista pharmaceuticals inc"
+    ],
+    "canonical_name": "KALVISTA PHARMACEUTICALS INC"
+  },
+  "KOD": {
+    "aliases": [
+      "KODIAK SCIENCES INC",
+      "Kodiak Inc",
+      "Kodiak Sciences",
+      "Kodiak Sciences Inc",
+      "kodiak inc",
+      "kodiak sciences",
+      "kodiak sciences inc"
+    ],
+    "canonical_name": "KODIAK SCIENCES INC"
+  },
+  "KROS": {
+    "aliases": [
+      "KEROS THERAPEUTICS INC",
+      "Keros Inc",
+      "Keros Therapeutics",
+      "Keros Therapeutics Inc",
+      "keros inc",
+      "keros therapeutics",
+      "keros therapeutics inc"
+    ],
+    "canonical_name": "KEROS THERAPEUTICS INC"
+  },
+  "KRYS": {
+    "aliases": [
+      "KRYSTAL BIOTECH INC",
+      "Krystal Biotech",
+      "Krystal Biotech Inc",
+      "Krystal Inc",
+      "krystal biotech",
+      "krystal biotech inc",
+      "krystal inc"
+    ],
+    "canonical_name": "KRYSTAL BIOTECH INC"
+  },
+  "KURA": {
+    "aliases": [
+      "KURA ONCOLOGY INC",
+      "Kura Oncology",
+      "Kura Oncology Inc",
+      "kura oncology",
+      "kura oncology inc"
+    ],
+    "canonical_name": "KURA ONCOLOGY INC"
+  },
+  "KYMR": {
+    "aliases": [
+      "KYMERA THERAPEUTICS INC",
+      "Kymera Inc",
+      "Kymera Therapeutics",
+      "Kymera Therapeutics Inc",
+      "kymera inc",
+      "kymera therapeutics",
+      "kymera therapeutics inc"
+    ],
+    "canonical_name": "KYMERA THERAPEUTICS INC"
+  },
+  "KYTX": {
+    "aliases": [
+      "KYVERNA THERAPEUTICS INC",
+      "Kyverna Inc",
+      "Kyverna Therapeutics",
+      "Kyverna Therapeutics Inc",
+      "kyverna inc",
+      "kyverna therapeutics",
+      "kyverna therapeutics inc"
+    ],
+    "canonical_name": "KYVERNA THERAPEUTICS INC"
+  },
+  "LAB": {
+    "aliases": [
+      "STANDARD BIOTOOLS INC",
+      "Standard Biotools",
+      "Standard Biotools Inc",
+      "standard biotools",
+      "standard biotools inc"
+    ],
+    "canonical_name": "STANDARD BIOTOOLS INC"
+  },
+  "LCTX": {
+    "aliases": [
+      "LINEAGE CELL THERAPEUTICS INC",
+      "Lineage Cell Inc",
+      "Lineage Cell Therapeutics",
+      "Lineage Cell Therapeutics Inc",
+      "lineage cell inc",
+      "lineage cell therapeutics",
+      "lineage cell therapeutics inc"
+    ],
+    "canonical_name": "LINEAGE CELL THERAPEUTICS INC"
+  },
+  "LEGN": {
+    "aliases": [
+      "LEGEND BIOTECH ADR REP CORP",
+      "Legend Adr Rep Corp",
+      "Legend Biotech Adr Rep",
+      "Legend Biotech Adr Rep Corp",
+      "legend adr rep corp",
+      "legend biotech adr rep",
+      "legend biotech adr rep corp"
+    ],
+    "canonical_name": "LEGEND BIOTECH ADR REP CORP"
+  },
+  "LENZ": {
+    "aliases": [
+      "LENZ THERAPEUTICS INC",
+      "Lenz Inc",
+      "Lenz Therapeutics",
+      "Lenz Therapeutics Inc",
+      "lenz inc",
+      "lenz therapeutics",
+      "lenz therapeutics inc"
+    ],
+    "canonical_name": "LENZ THERAPEUTICS INC"
+  },
+  "LRMR": {
+    "aliases": [
+      "LARIMAR THERAPEUTICS INC",
+      "Larimar Inc",
+      "Larimar Therapeutics",
+      "Larimar Therapeutics Inc",
+      "larimar inc",
+      "larimar therapeutics",
+      "larimar therapeutics inc"
+    ],
+    "canonical_name": "LARIMAR THERAPEUTICS INC"
+  },
+  "LXEO": {
+    "aliases": [
+      "LEXEO THERAPEUTICS INC",
+      "Lexeo Inc",
+      "Lexeo Therapeutics",
+      "Lexeo Therapeutics Inc",
+      "lexeo inc",
+      "lexeo therapeutics",
+      "lexeo therapeutics inc"
+    ],
+    "canonical_name": "LEXEO THERAPEUTICS INC"
+  },
+  "LYEL": {
+    "aliases": [
+      "LYELL IMMUNOPHARMA INC",
+      "Lyell Immunopharma",
+      "Lyell Immunopharma Inc",
+      "lyell immunopharma",
+      "lyell immunopharma inc"
+    ],
+    "canonical_name": "LYELL IMMUNOPHARMA INC"
+  },
+  "MAZE": {
+    "aliases": [
+      "MAZE THERAPEUTICS INC",
+      "Maze Inc",
+      "Maze Therapeutics",
+      "Maze Therapeutics Inc",
+      "maze inc",
+      "maze therapeutics",
+      "maze therapeutics inc"
+    ],
+    "canonical_name": "MAZE THERAPEUTICS INC"
+  },
+  "MBX": {
+    "aliases": [
+      "MBX BIOSCIENCES INC",
+      "Mbx Biosciences",
+      "Mbx Biosciences Inc",
+      "Mbx Inc",
+      "mbx biosciences",
+      "mbx biosciences inc",
+      "mbx inc"
+    ],
+    "canonical_name": "MBX BIOSCIENCES INC"
+  },
+  "MDGL": {
+    "aliases": [
+      "MADRIGAL PHARMACEUTICALS INC",
+      "Madrigal Inc",
+      "Madrigal Pharmaceuticals",
+      "Madrigal Pharmaceuticals Inc",
+      "madrigal inc",
+      "madrigal pharmaceuticals",
+      "madrigal pharmaceuticals inc"
+    ],
+    "canonical_name": "MADRIGAL PHARMACEUTICALS INC"
+  },
+  "MDXG": {
+    "aliases": [
+      "MIMEDX GROUP INC",
+      "Mimedx Group",
+      "Mimedx Group Inc",
+      "mimedx group",
+      "mimedx group inc"
+    ],
+    "canonical_name": "MIMEDX GROUP INC"
+  },
+  "MEDP": {
+    "aliases": [
+      "MEDPACE HOLDINGS INC",
+      "Medpace Holdings",
+      "Medpace Holdings Inc",
+      "medpace holdings",
+      "medpace holdings inc"
+    ],
+    "canonical_name": "MEDPACE HOLDINGS INC"
+  },
+  "MENS": {
+    "aliases": [
+      "JYONG BIOTECH LTD",
+      "Jyong Biotech",
+      "Jyong Biotech Ltd",
+      "Jyong Ltd",
+      "jyong biotech",
+      "jyong biotech ltd",
+      "jyong ltd"
+    ],
+    "canonical_name": "JYONG BIOTECH LTD"
+  },
+  "MESO": {
+    "aliases": [
+      "MESOBLAST ADR REPRESENTING LTD",
+      "Mesoblast Adr Representing",
+      "Mesoblast Adr Representing Ltd",
+      "mesoblast adr representing",
+      "mesoblast adr representing ltd"
+    ],
+    "canonical_name": "MESOBLAST ADR REPRESENTING LTD"
+  },
+  "MGTX": {
+    "aliases": [
+      "MEIRAGTX HOLDINGS PLC",
+      "Meiragtx Holdings",
+      "Meiragtx Holdings Plc",
+      "meiragtx holdings",
+      "meiragtx holdings plc"
+    ],
+    "canonical_name": "MEIRAGTX HOLDINGS PLC"
+  },
+  "MIRM": {
+    "aliases": [
+      "MIRUM PHARMACEUTICALS INC",
+      "Mirum Inc",
+      "Mirum Pharmaceuticals",
+      "Mirum Pharmaceuticals Inc",
+      "mirum inc",
+      "mirum pharmaceuticals",
+      "mirum pharmaceuticals inc"
+    ],
+    "canonical_name": "MIRUM PHARMACEUTICALS INC"
+  },
+  "MLYS": {
+    "aliases": [
+      "MINERALYS THERAPEUTICS INC",
+      "Mineralys Inc",
+      "Mineralys Therapeutics",
+      "Mineralys Therapeutics Inc",
+      "mineralys inc",
+      "mineralys therapeutics",
+      "mineralys therapeutics inc"
+    ],
+    "canonical_name": "MINERALYS THERAPEUTICS INC"
+  },
+  "MNKD": {
+    "aliases": [
+      "MANNKIND CORP",
+      "Mannkind",
+      "Mannkind Corp",
+      "mannkind",
+      "mannkind corp"
+    ],
+    "canonical_name": "MANNKIND CORP"
+  },
+  "MRNA": {
+    "aliases": [
+      "MODERNA INC",
+      "Moderna",
+      "Moderna Inc",
+      "moderna",
+      "moderna inc"
+    ],
+    "canonical_name": "MODERNA INC"
+  },
+  "MRVI": {
+    "aliases": [
+      "MARAVAI LIFESCIENCES HOLDINGS INC",
+      "Maravai Lifesciences Holdings",
+      "Maravai Lifesciences Holdings Inc",
+      "maravai lifesciences holdings",
+      "maravai lifesciences holdings inc"
+    ],
+    "canonical_name": "MARAVAI LIFESCIENCES HOLDINGS INC"
+  },
+  "MYGN": {
+    "aliases": [
+      "MYRIAD GENETICS INC",
+      "Myriad Genetics",
+      "Myriad Genetics Inc",
+      "myriad genetics",
+      "myriad genetics inc"
+    ],
+    "canonical_name": "MYRIAD GENETICS INC"
+  },
+  "NAMS": {
+    "aliases": [
+      "NEWAMSTERDAM PHARMA NV",
+      "Newamsterdam Nv",
+      "Newamsterdam Pharma",
+      "Newamsterdam Pharma Nv",
+      "newamsterdam nv",
+      "newamsterdam pharma",
+      "newamsterdam pharma nv"
+    ],
+    "canonical_name": "NEWAMSTERDAM PHARMA NV"
+  },
+  "NBIX": {
+    "aliases": [
+      "NEUROCRINE BIOSCIENCES INC",
+      "Neurocrine Biosciences",
+      "Neurocrine Biosciences Inc",
+      "Neurocrine Inc",
+      "neurocrine biosciences",
+      "neurocrine biosciences inc",
+      "neurocrine inc"
+    ],
+    "canonical_name": "NEUROCRINE BIOSCIENCES INC"
+  },
+  "NBP": {
+    "aliases": [
+      "NOVABRIDGE BIOSCIENCES ADR",
+      "Novabridge Adr",
+      "Novabridge Biosciences Adr",
+      "novabridge adr",
+      "novabridge biosciences adr"
+    ],
+    "canonical_name": "NOVABRIDGE BIOSCIENCES ADR"
+  },
+  "NGNE": {
+    "aliases": [
+      "NEUROGENE INC",
+      "Neurogene",
+      "Neurogene Inc",
+      "neurogene",
+      "neurogene inc"
+    ],
+    "canonical_name": "NEUROGENE INC"
+  },
+  "NMRA": {
+    "aliases": [
+      "NEUMORA THERAPEUTICS INC",
+      "Neumora Inc",
+      "Neumora Therapeutics",
+      "Neumora Therapeutics Inc",
+      "neumora inc",
+      "neumora therapeutics",
+      "neumora therapeutics inc"
+    ],
+    "canonical_name": "NEUMORA THERAPEUTICS INC"
+  },
+  "NRIX": {
+    "aliases": [
+      "NURIX THERAPEUTICS INC",
+      "Nurix Inc",
+      "Nurix Therapeutics",
+      "Nurix Therapeutics Inc",
+      "nurix inc",
+      "nurix therapeutics",
+      "nurix therapeutics inc"
+    ],
+    "canonical_name": "NURIX THERAPEUTICS INC"
+  },
+  "NTLA": {
+    "aliases": [
+      "INTELLIA THERAPEUTICS INC",
+      "Intellia Inc",
+      "Intellia Therapeutics",
+      "Intellia Therapeutics Inc",
+      "intellia inc",
+      "intellia therapeutics",
+      "intellia therapeutics inc"
+    ],
+    "canonical_name": "INTELLIA THERAPEUTICS INC"
+  },
+  "NTRA": {
+    "aliases": [
+      "NATERA INC",
+      "Natera",
+      "Natera Inc",
+      "natera",
+      "natera inc"
+    ],
+    "canonical_name": "NATERA INC"
+  },
+  "NUVB": {
+    "aliases": [
+      "NUVATION BIO INC CLASS A",
+      "Nuvation Bio Inc Class A",
+      "nuvation bio inc class a"
+    ],
+    "canonical_name": "NUVATION BIO INC CLASS A"
+  },
+  "NUVL": {
+    "aliases": [
+      "NUVALENT INC CLASS A",
+      "Nuvalent Inc Class A",
+      "nuvalent inc class a"
+    ],
+    "canonical_name": "NUVALENT INC CLASS A"
+  },
+  "NVAX": {
+    "aliases": [
+      "NOVAVAX INC",
+      "Novavax",
+      "Novavax Inc",
+      "novavax",
+      "novavax inc"
+    ],
+    "canonical_name": "NOVAVAX INC"
+  },
+  "NVCR": {
+    "aliases": [
+      "NOVOCURE LTD",
+      "Novocure",
+      "Novocure Ltd",
+      "novocure",
+      "novocure ltd"
+    ],
+    "canonical_name": "NOVOCURE LTD"
+  },
+  "OABI": {
+    "aliases": [
+      "OMNIAB INC",
+      "Omniab",
+      "Omniab Inc",
+      "omniab",
+      "omniab inc"
+    ],
+    "canonical_name": "OMNIAB INC"
+  },
+  "OCGN": {
+    "aliases": [
+      "OCUGEN INC",
+      "Ocugen",
+      "Ocugen Inc",
+      "ocugen",
+      "ocugen inc"
+    ],
+    "canonical_name": "OCUGEN INC"
+  },
+  "OLMA": {
+    "aliases": [
+      "OLEMA PHARMACEUTICALS INC",
+      "Olema Inc",
+      "Olema Pharmaceuticals",
+      "Olema Pharmaceuticals Inc",
+      "olema inc",
+      "olema pharmaceuticals",
+      "olema pharmaceuticals inc"
+    ],
+    "canonical_name": "OLEMA PHARMACEUTICALS INC"
+  },
+  "ONC": {
+    "aliases": [
+      "BEONE MEDICINES AG",
+      "Beone Ag",
+      "Beone Medicines Ag",
+      "beone ag",
+      "beone medicines ag"
+    ],
+    "canonical_name": "BEONE MEDICINES AG"
+  },
+  "OPK": {
+    "aliases": [
+      "OPKO HEALTH INC",
+      "Opko Health",
+      "Opko Health Inc",
+      "opko health",
+      "opko health inc"
+    ],
+    "canonical_name": "OPKO HEALTH INC"
+  },
+  "ORIC": {
+    "aliases": [
+      "ORIC PHARMACEUTICALS INC",
+      "Oric Inc",
+      "Oric Pharmaceuticals",
+      "Oric Pharmaceuticals Inc",
+      "oric inc",
+      "oric pharmaceuticals",
+      "oric pharmaceuticals inc"
+    ],
+    "canonical_name": "ORIC PHARMACEUTICALS INC"
+  },
+  "ORKA": {
+    "aliases": [
+      "ORUKA THERAPEUTICS INC",
+      "Oruka Inc",
+      "Oruka Therapeutics",
+      "Oruka Therapeutics Inc",
+      "oruka inc",
+      "oruka therapeutics",
+      "oruka therapeutics inc"
+    ],
+    "canonical_name": "ORUKA THERAPEUTICS INC"
+  },
+  "PACB": {
+    "aliases": [
+      "PACIFIC BIOSCIENCES OF CALIFORNIA",
+      "Pacific Biosciences Of California",
+      "Pacific Of California",
+      "pacific biosciences of california",
+      "pacific of california"
+    ],
+    "canonical_name": "PACIFIC BIOSCIENCES OF CALIFORNIA"
+  },
+  "PCVX": {
+    "aliases": [
+      "VAXCYTE INC",
+      "Vaxcyte",
+      "Vaxcyte Inc",
+      "vaxcyte",
+      "vaxcyte inc"
+    ],
+    "canonical_name": "VAXCYTE INC"
+  },
+  "PEPG": {
+    "aliases": [
+      "PEPGEN INC",
+      "Pepgen",
+      "Pepgen Inc",
+      "pepgen",
+      "pepgen inc"
+    ],
+    "canonical_name": "PEPGEN INC"
+  },
+  "PGEN": {
+    "aliases": [
+      "PRECIGEN INC",
+      "Precigen",
+      "Precigen Inc",
+      "precigen",
+      "precigen inc"
+    ],
+    "canonical_name": "PRECIGEN INC"
+  },
+  "PHAT": {
+    "aliases": [
+      "PHATHOM PHARMACEUTICALS INC",
+      "Phathom Inc",
+      "Phathom Pharmaceuticals",
+      "Phathom Pharmaceuticals Inc",
+      "phathom inc",
+      "phathom pharmaceuticals",
+      "phathom pharmaceuticals inc"
+    ],
+    "canonical_name": "PHATHOM PHARMACEUTICALS INC"
+  },
+  "PHVS": {
+    "aliases": [
+      "PHARVARIS N V NV",
+      "Pharvaris N V",
+      "Pharvaris N V Nv",
+      "pharvaris n v",
+      "pharvaris n v nv"
+    ],
+    "canonical_name": "PHARVARIS N V NV"
+  },
+  "PRAX": {
+    "aliases": [
+      "PRAXIS PRECISION MEDICINES INC",
+      "Praxis Precision Inc",
+      "Praxis Precision Medicines",
+      "Praxis Precision Medicines Inc",
+      "praxis precision inc",
+      "praxis precision medicines",
+      "praxis precision medicines inc"
+    ],
+    "canonical_name": "PRAXIS PRECISION MEDICINES INC"
+  },
+  "PRME": {
+    "aliases": [
+      "PRIME MEDICINE INC",
+      "Prime Medicine",
+      "Prime Medicine Inc",
+      "prime medicine",
+      "prime medicine inc"
+    ],
+    "canonical_name": "PRIME MEDICINE INC"
+  },
+  "PRTA": {
+    "aliases": [
+      "PROTHENA PLC",
+      "Prothena",
+      "Prothena Plc",
+      "prothena",
+      "prothena plc"
+    ],
+    "canonical_name": "PROTHENA PLC"
+  },
+  "PSNL": {
+    "aliases": [
+      "PERSONALIS INC",
+      "Personalis",
+      "Personalis Inc",
+      "personalis",
+      "personalis inc"
+    ],
+    "canonical_name": "PERSONALIS INC"
+  },
+  "PTCT": {
+    "aliases": [
+      "PTC THERAPEUTICS INC",
+      "Ptc Inc",
+      "Ptc Therapeutics",
+      "Ptc Therapeutics Inc",
+      "ptc inc",
+      "ptc therapeutics",
+      "ptc therapeutics inc"
+    ],
+    "canonical_name": "PTC THERAPEUTICS INC"
+  },
+  "PTGX": {
+    "aliases": [
+      "PROTAGONIST THERAPEUTICS INC",
+      "Protagonist Inc",
+      "Protagonist Therapeutics",
+      "Protagonist Therapeutics Inc",
+      "protagonist inc",
+      "protagonist therapeutics",
+      "protagonist therapeutics inc"
+    ],
+    "canonical_name": "PROTAGONIST THERAPEUTICS INC"
+  },
+  "PURR": {
+    "aliases": [
+      "HYPERLIQUID STRATEGIES",
+      "Hyperliquid Strategies",
+      "hyperliquid strategies"
+    ],
+    "canonical_name": "HYPERLIQUID STRATEGIES"
+  },
+  "PVLA": {
+    "aliases": [
+      "PALVELLA THERAPEUTICS INC",
+      "Palvella Inc",
+      "Palvella Therapeutics",
+      "Palvella Therapeutics Inc",
+      "palvella inc",
+      "palvella therapeutics",
+      "palvella therapeutics inc"
+    ],
+    "canonical_name": "PALVELLA THERAPEUTICS INC"
+  },
+  "PYXS": {
+    "aliases": [
+      "PYXIS ONCOLOGY INC",
+      "Pyxis Oncology",
+      "Pyxis Oncology Inc",
+      "pyxis oncology",
+      "pyxis oncology inc"
+    ],
+    "canonical_name": "PYXIS ONCOLOGY INC"
+  },
+  "QSI": {
+    "aliases": [
+      "QUANTUM SI INC CLASS A",
+      "Quantum Si Inc Class A",
+      "quantum si inc class a"
+    ],
+    "canonical_name": "QUANTUM SI INC CLASS A"
+  },
+  "QTRX": {
+    "aliases": [
+      "QUANTERIX CORP",
+      "Quanterix",
+      "Quanterix Corp",
+      "quanterix",
+      "quanterix corp"
+    ],
+    "canonical_name": "QUANTERIX CORP"
+  },
+  "QURE": {
+    "aliases": [
+      "UNIQURE NV",
+      "Uniqure",
+      "Uniqure Nv",
+      "uniqure",
+      "uniqure nv"
+    ],
+    "canonical_name": "UNIQURE NV"
+  },
+  "RAPP": {
+    "aliases": [
+      "RAPPORT THERAPEUTICS INC",
+      "Rapport Inc",
+      "Rapport Therapeutics",
+      "Rapport Therapeutics Inc",
+      "rapport inc",
+      "rapport therapeutics",
+      "rapport therapeutics inc"
+    ],
+    "canonical_name": "RAPPORT THERAPEUTICS INC"
+  },
+  "RARE": {
+    "aliases": [
+      "ULTRAGENYX PHARMACEUTICAL INC",
+      "Ultragenyx Inc",
+      "Ultragenyx Pharmaceutical",
+      "Ultragenyx Pharmaceutical Inc",
+      "ultragenyx inc",
+      "ultragenyx pharmaceutical",
+      "ultragenyx pharmaceutical inc"
+    ],
+    "canonical_name": "ULTRAGENYX PHARMACEUTICAL INC"
+  },
+  "RCKT": {
+    "aliases": [
+      "ROCKET PHARMACEUTICALS INC",
+      "Rocket Inc",
+      "Rocket Pharmaceuticals",
+      "Rocket Pharmaceuticals Inc",
+      "rocket inc",
+      "rocket pharmaceuticals",
+      "rocket pharmaceuticals inc"
+    ],
+    "canonical_name": "ROCKET PHARMACEUTICALS INC"
+  },
+  "RCUS": {
+    "aliases": [
+      "ARCUS BIOSCIENCES INC",
+      "Arcus Biosciences",
+      "Arcus Biosciences Inc",
+      "Arcus Inc",
+      "arcus biosciences",
+      "arcus biosciences inc",
+      "arcus inc"
+    ],
+    "canonical_name": "ARCUS BIOSCIENCES INC"
+  },
+  "REGN": {
+    "aliases": [
+      "REGENERON PHARMACEUTICALS INC",
+      "Regeneron Inc",
+      "Regeneron Pharmaceuticals",
+      "Regeneron Pharmaceuticals Inc",
+      "regeneron inc",
+      "regeneron pharmaceuticals",
+      "regeneron pharmaceuticals inc"
+    ],
+    "canonical_name": "REGENERON PHARMACEUTICALS INC"
+  },
+  "REPL": {
+    "aliases": [
+      "REPLIMUNE GROUP INC",
+      "Replimune Group",
+      "Replimune Group Inc",
+      "replimune group",
+      "replimune group inc"
+    ],
+    "canonical_name": "REPLIMUNE GROUP INC"
+  },
+  "RGEN": {
+    "aliases": [
+      "REPLIGEN CORP",
+      "Repligen",
+      "Repligen Corp",
+      "repligen",
+      "repligen corp"
+    ],
+    "canonical_name": "REPLIGEN CORP"
+  },
+  "RGNX": {
+    "aliases": [
+      "REGENXBIO INC",
+      "Regenxbio",
+      "Regenxbio Inc",
+      "regenxbio",
+      "regenxbio inc"
+    ],
+    "canonical_name": "REGENXBIO INC"
+  },
+  "RIGL": {
+    "aliases": [
+      "RIGEL PHARMACEUTICALS INC",
+      "Rigel Inc",
+      "Rigel Pharmaceuticals",
+      "Rigel Pharmaceuticals Inc",
+      "rigel inc",
+      "rigel pharmaceuticals",
+      "rigel pharmaceuticals inc"
+    ],
+    "canonical_name": "RIGEL PHARMACEUTICALS INC"
+  },
+  "RLAY": {
+    "aliases": [
+      "RELAY THERAPEUTICS INC",
+      "Relay Inc",
+      "Relay Therapeutics",
+      "Relay Therapeutics Inc",
+      "relay inc",
+      "relay therapeutics",
+      "relay therapeutics inc"
+    ],
+    "canonical_name": "RELAY THERAPEUTICS INC"
+  },
+  "ROIV": {
+    "aliases": [
+      "ROIVANT SCIENCES LTD",
+      "Roivant Ltd",
+      "Roivant Sciences",
+      "Roivant Sciences Ltd",
+      "roivant ltd",
+      "roivant sciences",
+      "roivant sciences ltd"
+    ],
+    "canonical_name": "ROIVANT SCIENCES LTD"
+  },
+  "RVMD": {
+    "aliases": [
+      "REVOLUTION MEDICINES INC",
+      "Revolution Inc",
+      "Revolution Medicines",
+      "Revolution Medicines Inc",
+      "revolution inc",
+      "revolution medicines",
+      "revolution medicines inc"
+    ],
+    "canonical_name": "REVOLUTION MEDICINES INC"
+  },
+  "RXRX": {
+    "aliases": [
+      "RECURSION PHARMACEUTICALS INC CLAS",
+      "Recursion Inc Clas",
+      "Recursion Pharmaceuticals Inc Clas",
+      "recursion inc clas",
+      "recursion pharmaceuticals inc clas"
+    ],
+    "canonical_name": "RECURSION PHARMACEUTICALS INC CLAS"
+  },
+  "RYTM": {
+    "aliases": [
+      "RHYTHM PHARMACEUTICALS INC",
+      "Rhythm Inc",
+      "Rhythm Pharmaceuticals",
+      "Rhythm Pharmaceuticals Inc",
+      "rhythm inc",
+      "rhythm pharmaceuticals",
+      "rhythm pharmaceuticals inc"
+    ],
+    "canonical_name": "RHYTHM PHARMACEUTICALS INC"
+  },
+  "SANA": {
+    "aliases": [
+      "SANA BIOTECHNOLOGY INC",
+      "Sana Biotechnology",
+      "Sana Biotechnology Inc",
+      "Sana Inc",
+      "sana biotechnology",
+      "sana biotechnology inc",
+      "sana inc"
+    ],
+    "canonical_name": "SANA BIOTECHNOLOGY INC"
+  },
+  "SEPN": {
+    "aliases": [
+      "SEPTERNA INC",
+      "Septerna",
+      "Septerna Inc",
+      "septerna",
+      "septerna inc"
+    ],
+    "canonical_name": "SEPTERNA INC"
+  },
+  "SGAFT": {
+    "aliases": [
+      "CASH COLLATERAL USD SGAFT",
+      "Cash Collateral Usd Sgaft",
+      "cash collateral usd sgaft"
+    ],
+    "canonical_name": "CASH COLLATERAL USD SGAFT"
+  },
+  "SGMT": {
+    "aliases": [
+      "SAGIMET BIOSCIENCES INC SERIES A",
+      "Sagimet Biosciences Inc Series A",
+      "Sagimet Inc Series A",
+      "sagimet biosciences inc series a",
+      "sagimet inc series a"
+    ],
+    "canonical_name": "SAGIMET BIOSCIENCES INC SERIES A"
+  },
+  "SION": {
+    "aliases": [
+      "SIONNA THERAPEUTICS INC",
+      "Sionna Inc",
+      "Sionna Therapeutics",
+      "Sionna Therapeutics Inc",
+      "sionna inc",
+      "sionna therapeutics",
+      "sionna therapeutics inc"
+    ],
+    "canonical_name": "SIONNA THERAPEUTICS INC"
+  },
+  "SLDB": {
+    "aliases": [
+      "SOLID BIOSCIENCES INC",
+      "Solid Biosciences",
+      "Solid Biosciences Inc",
+      "Solid Inc",
+      "solid biosciences",
+      "solid biosciences inc",
+      "solid inc"
+    ],
+    "canonical_name": "SOLID BIOSCIENCES INC"
+  },
+  "SLN": {
+    "aliases": [
+      "SILENCE THERAPEUTICS ADR REPRESENT",
+      "Silence Adr Represent",
+      "Silence Therapeutics Adr Represent",
+      "silence adr represent",
+      "silence therapeutics adr represent"
+    ],
+    "canonical_name": "SILENCE THERAPEUTICS ADR REPRESENT"
+  },
+  "SLNO": {
+    "aliases": [
+      "SOLENO THERAPEUTICS INC",
+      "Soleno Inc",
+      "Soleno Therapeutics",
+      "Soleno Therapeutics Inc",
+      "soleno inc",
+      "soleno therapeutics",
+      "soleno therapeutics inc"
+    ],
+    "canonical_name": "SOLENO THERAPEUTICS INC"
+  },
+  "SLS": {
+    "aliases": [
+      "SELLAS LIFE SCIENCES GROUP I",
+      "Sellas Life Group I",
+      "Sellas Life Sciences Group I",
+      "sellas life group i",
+      "sellas life sciences group i"
+    ],
+    "canonical_name": "SELLAS LIFE SCIENCES GROUP I"
+  },
+  "SMMT": {
+    "aliases": [
+      "SUMMIT THERAPEUTICS INC",
+      "Summit Inc",
+      "Summit Therapeutics",
+      "Summit Therapeutics Inc",
+      "summit inc",
+      "summit therapeutics",
+      "summit therapeutics inc"
+    ],
+    "canonical_name": "SUMMIT THERAPEUTICS INC"
+  },
+  "SNDX": {
+    "aliases": [
+      "SYNDAX PHARMACEUTICALS INC",
+      "Syndax Inc",
+      "Syndax Pharmaceuticals",
+      "Syndax Pharmaceuticals Inc",
+      "syndax inc",
+      "syndax pharmaceuticals",
+      "syndax pharmaceuticals inc"
+    ],
+    "canonical_name": "SYNDAX PHARMACEUTICALS INC"
+  },
+  "SPRY": {
+    "aliases": [
+      "ARS PHARMACEUTICALS INC",
+      "Ars Inc",
+      "Ars Pharmaceuticals",
+      "Ars Pharmaceuticals Inc",
+      "ars inc",
+      "ars pharmaceuticals",
+      "ars pharmaceuticals inc"
+    ],
+    "canonical_name": "ARS PHARMACEUTICALS INC"
+  },
+  "SRPT": {
+    "aliases": [
+      "SAREPTA THERAPEUTICS INC",
+      "Sarepta Inc",
+      "Sarepta Therapeutics",
+      "Sarepta Therapeutics Inc",
+      "sarepta inc",
+      "sarepta therapeutics",
+      "sarepta therapeutics inc"
+    ],
+    "canonical_name": "SAREPTA THERAPEUTICS INC"
+  },
+  "SRRK": {
+    "aliases": [
+      "SCHOLAR ROCK HOLDING CORP",
+      "Scholar Rock Holding",
+      "Scholar Rock Holding Corp",
+      "scholar rock holding",
+      "scholar rock holding corp"
+    ],
+    "canonical_name": "SCHOLAR ROCK HOLDING CORP"
+  },
+  "STOK": {
+    "aliases": [
+      "STOKE THERAPEUTICS INC",
+      "Stoke Inc",
+      "Stoke Therapeutics",
+      "Stoke Therapeutics Inc",
+      "stoke inc",
+      "stoke therapeutics",
+      "stoke therapeutics inc"
+    ],
+    "canonical_name": "STOKE THERAPEUTICS INC"
+  },
+  "STVN": {
+    "aliases": [
+      "STEVANATO GROUP",
+      "Stevanato",
+      "Stevanato Group",
+      "stevanato",
+      "stevanato group"
+    ],
+    "canonical_name": "STEVANATO GROUP"
+  },
+  "SVRA": {
+    "aliases": [
+      "SAVARA INC",
+      "Savara",
+      "Savara Inc",
+      "savara",
+      "savara inc"
+    ],
+    "canonical_name": "SAVARA INC"
+  },
+  "SYRE": {
+    "aliases": [
+      "SPYRE THERAPEUTICS INC",
+      "Spyre Inc",
+      "Spyre Therapeutics",
+      "Spyre Therapeutics Inc",
+      "spyre inc",
+      "spyre therapeutics",
+      "spyre therapeutics inc"
+    ],
+    "canonical_name": "SPYRE THERAPEUTICS INC"
+  },
+  "TARS": {
+    "aliases": [
+      "TARSUS PHARMACEUTICALS INC",
+      "Tarsus Inc",
+      "Tarsus Pharmaceuticals",
+      "Tarsus Pharmaceuticals Inc",
+      "tarsus inc",
+      "tarsus pharmaceuticals",
+      "tarsus pharmaceuticals inc"
+    ],
+    "canonical_name": "TARSUS PHARMACEUTICALS INC"
+  },
+  "TBPH": {
+    "aliases": [
+      "THERAVANCE BIOPHARMA INC",
+      "Theravance Biopharma",
+      "Theravance Biopharma Inc",
+      "theravance biopharma",
+      "theravance biopharma inc"
+    ],
+    "canonical_name": "THERAVANCE BIOPHARMA INC"
+  },
+  "TECH": {
+    "aliases": [
+      "BIO TECHNE CORP",
+      "Bio Techne",
+      "Bio Techne Corp",
+      "bio techne",
+      "bio techne corp"
+    ],
+    "canonical_name": "BIO TECHNE CORP"
+  },
+  "TECX": {
+    "aliases": [
+      "TECTONIC THERAPEUTIC INC",
+      "Tectonic Therapeutic",
+      "Tectonic Therapeutic Inc",
+      "tectonic therapeutic",
+      "tectonic therapeutic inc"
+    ],
+    "canonical_name": "TECTONIC THERAPEUTIC INC"
+  },
+  "TEM": {
+    "aliases": [
+      "TEMPUS AI INC CLASS A",
+      "Tempus Ai Inc Class A",
+      "tempus ai inc class a"
+    ],
+    "canonical_name": "TEMPUS AI INC CLASS A"
+  },
+  "TERN": {
+    "aliases": [
+      "TERNS PHARMACEUTICALS INC",
+      "Terns Inc",
+      "Terns Pharmaceuticals",
+      "Terns Pharmaceuticals Inc",
+      "terns inc",
+      "terns pharmaceuticals",
+      "terns pharmaceuticals inc"
+    ],
+    "canonical_name": "TERNS PHARMACEUTICALS INC"
+  },
+  "TGTX": {
+    "aliases": [
+      "TG THERAPEUTICS INC",
+      "Tg Inc",
+      "Tg Therapeutics",
+      "Tg Therapeutics Inc",
+      "tg inc",
+      "tg therapeutics",
+      "tg therapeutics inc"
+    ],
+    "canonical_name": "TG THERAPEUTICS INC"
+  },
+  "THRD": {
+    "aliases": [
+      "THIRD HARMONIC BIO INC",
+      "Third Harmonic Bio",
+      "Third Harmonic Bio Inc",
+      "third harmonic bio",
+      "third harmonic bio inc"
+    ],
+    "canonical_name": "THIRD HARMONIC BIO INC"
+  },
+  "TKNO": {
+    "aliases": [
+      "ALPHA TEKNOVA INC",
+      "Alpha Teknova",
+      "Alpha Teknova Inc",
+      "alpha teknova",
+      "alpha teknova inc"
+    ],
+    "canonical_name": "ALPHA TEKNOVA INC"
+  },
+  "TNGX": {
+    "aliases": [
+      "TANGO THERAPEUTICS INC",
+      "Tango Inc",
+      "Tango Therapeutics",
+      "Tango Therapeutics Inc",
+      "tango inc",
+      "tango therapeutics",
+      "tango therapeutics inc"
+    ],
+    "canonical_name": "TANGO THERAPEUTICS INC"
+  },
+  "TNYA": {
+    "aliases": [
+      "TENAYA THERAPEUTICS INC",
+      "Tenaya Inc",
+      "Tenaya Therapeutics",
+      "Tenaya Therapeutics Inc",
+      "tenaya inc",
+      "tenaya therapeutics",
+      "tenaya therapeutics inc"
+    ],
+    "canonical_name": "TENAYA THERAPEUTICS INC"
+  },
+  "TRDA": {
+    "aliases": [
+      "ENTRADA THERAPEUTICS INC",
+      "Entrada Inc",
+      "Entrada Therapeutics",
+      "Entrada Therapeutics Inc",
+      "entrada inc",
+      "entrada therapeutics",
+      "entrada therapeutics inc"
+    ],
+    "canonical_name": "ENTRADA THERAPEUTICS INC"
+  },
+  "TRVI": {
+    "aliases": [
+      "TREVI THERAPEUTICS INC",
+      "Trevi Inc",
+      "Trevi Therapeutics",
+      "Trevi Therapeutics Inc",
+      "trevi inc",
+      "trevi therapeutics",
+      "trevi therapeutics inc"
+    ],
+    "canonical_name": "TREVI THERAPEUTICS INC"
+  },
+  "TSHA": {
+    "aliases": [
+      "TAYSHA GENE THERAPIES INC",
+      "Taysha Gene Therapies",
+      "Taysha Gene Therapies Inc",
+      "taysha gene therapies",
+      "taysha gene therapies inc"
+    ],
+    "canonical_name": "TAYSHA GENE THERAPIES INC"
+  },
+  "TVTX": {
+    "aliases": [
+      "TRAVERE THERAPEUTICS INC",
+      "Travere Inc",
+      "Travere Therapeutics",
+      "Travere Therapeutics Inc",
+      "travere inc",
+      "travere therapeutics",
+      "travere therapeutics inc"
+    ],
+    "canonical_name": "TRAVERE THERAPEUTICS INC"
+  },
+  "TWST": {
+    "aliases": [
+      "TWIST BIOSCIENCE CORP",
+      "Twist Bioscience",
+      "Twist Bioscience Corp",
+      "twist bioscience",
+      "twist bioscience corp"
+    ],
+    "canonical_name": "TWIST BIOSCIENCE CORP"
+  },
+  "TXG": {
+    "aliases": [
+      "10X GENOMICS INC CLASS A",
+      "10X Genomics Inc Class A",
+      "10x genomics inc class a"
+    ],
+    "canonical_name": "10X GENOMICS INC CLASS A"
+  },
+  "TYRA": {
+    "aliases": [
+      "TYRA BIOSCIENCES INC",
+      "Tyra Biosciences",
+      "Tyra Biosciences Inc",
+      "Tyra Inc",
+      "tyra biosciences",
+      "tyra biosciences inc",
+      "tyra inc"
+    ],
+    "canonical_name": "TYRA BIOSCIENCES INC"
+  },
+  "UPB": {
+    "aliases": [
+      "UPSTREAM BIO INC",
+      "Upstream Bio",
+      "Upstream Bio Inc",
+      "upstream bio",
+      "upstream bio inc"
+    ],
+    "canonical_name": "UPSTREAM BIO INC"
+  },
+  "URGN": {
+    "aliases": [
+      "UROGEN PHARMA LTD",
+      "Urogen Ltd",
+      "Urogen Pharma",
+      "Urogen Pharma Ltd",
+      "urogen ltd",
+      "urogen pharma",
+      "urogen pharma ltd"
+    ],
+    "canonical_name": "UROGEN PHARMA LTD"
+  },
+  "USD": {
+    "aliases": [
+      "USD CASH",
+      "Usd Cash",
+      "usd cash"
+    ],
+    "canonical_name": "USD CASH"
+  },
+  "UTHR": {
+    "aliases": [
+      "UNITED THERAPEUTICS CORP",
+      "United Corp",
+      "United Therapeutics",
+      "United Therapeutics Corp",
+      "united corp",
+      "united therapeutics",
+      "united therapeutics corp"
+    ],
+    "canonical_name": "UNITED THERAPEUTICS CORP"
+  },
+  "VCEL": {
+    "aliases": [
+      "VERICEL CORP",
+      "Vericel",
+      "Vericel Corp",
+      "vericel",
+      "vericel corp"
+    ],
+    "canonical_name": "VERICEL CORP"
+  },
+  "VCYT": {
+    "aliases": [
+      "VERACYTE INC",
+      "Veracyte",
+      "Veracyte Inc",
+      "veracyte",
+      "veracyte inc"
+    ],
+    "canonical_name": "VERACYTE INC"
+  },
+  "VERA": {
+    "aliases": [
+      "VERA THERAPEUTICS INC CLASS A",
+      "Vera Inc Class A",
+      "Vera Therapeutics Inc Class A",
+      "vera inc class a",
+      "vera therapeutics inc class a"
+    ],
+    "canonical_name": "VERA THERAPEUTICS INC CLASS A"
+  },
+  "VIR": {
+    "aliases": [
+      "VIR BIOTECHNOLOGY INC",
+      "Vir Biotechnology",
+      "Vir Biotechnology Inc",
+      "Vir Inc",
+      "vir biotechnology",
+      "vir biotechnology inc",
+      "vir inc"
+    ],
+    "canonical_name": "VIR BIOTECHNOLOGY INC"
+  },
+  "VKTX": {
+    "aliases": [
+      "VIKING THERAPEUTICS INC",
+      "Viking Inc",
+      "Viking Therapeutics",
+      "Viking Therapeutics Inc",
+      "viking inc",
+      "viking therapeutics",
+      "viking therapeutics inc"
+    ],
+    "canonical_name": "VIKING THERAPEUTICS INC"
+  },
+  "VNDA": {
+    "aliases": [
+      "VANDA PHARMACEUTICALS INC",
+      "Vanda Inc",
+      "Vanda Pharmaceuticals",
+      "Vanda Pharmaceuticals Inc",
+      "vanda inc",
+      "vanda pharmaceuticals",
+      "vanda pharmaceuticals inc"
+    ],
+    "canonical_name": "VANDA PHARMACEUTICALS INC"
+  },
+  "VOR": {
+    "aliases": [
+      "VOR BIOPHARMA INC",
+      "Vor Biopharma",
+      "Vor Biopharma Inc",
+      "vor biopharma",
+      "vor biopharma inc"
+    ],
+    "canonical_name": "VOR BIOPHARMA INC"
+  },
+  "VRDN": {
+    "aliases": [
+      "VIRIDIAN THERAPEUTICS INC",
+      "Viridian Inc",
+      "Viridian Therapeutics",
+      "Viridian Therapeutics Inc",
+      "viridian inc",
+      "viridian therapeutics",
+      "viridian therapeutics inc"
+    ],
+    "canonical_name": "VIRIDIAN THERAPEUTICS INC"
+  },
+  "VRTX": {
+    "aliases": [
+      "VERTEX PHARMACEUTICALS INC",
+      "Vertex Inc",
+      "Vertex Pharmaceuticals",
+      "Vertex Pharmaceuticals Inc",
+      "vertex inc",
+      "vertex pharmaceuticals",
+      "vertex pharmaceuticals inc"
+    ],
+    "canonical_name": "VERTEX PHARMACEUTICALS INC"
+  },
+  "VSTM": {
+    "aliases": [
+      "VERASTEM INC",
+      "Verastem",
+      "Verastem Inc",
+      "verastem",
+      "verastem inc"
+    ],
+    "canonical_name": "VERASTEM INC"
+  },
+  "VYGR": {
+    "aliases": [
+      "VOYAGER THERAPEUTICS INC",
+      "Voyager Inc",
+      "Voyager Therapeutics",
+      "Voyager Therapeutics Inc",
+      "voyager inc",
+      "voyager therapeutics",
+      "voyager therapeutics inc"
+    ],
+    "canonical_name": "VOYAGER THERAPEUTICS INC"
+  },
+  "WVE": {
+    "aliases": [
+      "WAVE LIFE SCIENCES LTD",
+      "Wave Life Ltd",
+      "Wave Life Sciences",
+      "Wave Life Sciences Ltd",
+      "wave life ltd",
+      "wave life sciences",
+      "wave life sciences ltd"
+    ],
+    "canonical_name": "WAVE LIFE SCIENCES LTD"
+  },
+  "XENE": {
+    "aliases": [
+      "XENON PHARMACEUTICALS INC",
+      "Xenon Inc",
+      "Xenon Pharmaceuticals",
+      "Xenon Pharmaceuticals Inc",
+      "xenon inc",
+      "xenon pharmaceuticals",
+      "xenon pharmaceuticals inc"
+    ],
+    "canonical_name": "XENON PHARMACEUTICALS INC"
+  },
+  "XNCR": {
+    "aliases": [
+      "XENCOR INC",
+      "Xencor",
+      "Xencor Inc",
+      "xencor",
+      "xencor inc"
+    ],
+    "canonical_name": "XENCOR INC"
+  },
+  "XTSLA": {
+    "aliases": [
+      "BLK CSH FND TREASURY SL AGENCY",
+      "Blk Csh Fnd Treasury Sl Agency",
+      "blk csh fnd treasury sl agency"
+    ],
+    "canonical_name": "BLK CSH FND TREASURY SL AGENCY"
+  },
+  "ZBIO": {
+    "aliases": [
+      "ZENAS BIOPHARMA INC",
+      "Zenas Biopharma",
+      "Zenas Biopharma Inc",
+      "zenas biopharma",
+      "zenas biopharma inc"
+    ],
+    "canonical_name": "ZENAS BIOPHARMA INC"
+  },
+  "ZLAB": {
+    "aliases": [
+      "ZAI LABORATORY ADR REPRESENTING LT",
+      "Zai Laboratory Adr Representing Lt",
+      "zai laboratory adr representing lt"
+    ],
+    "canonical_name": "ZAI LABORATORY ADR REPRESENTING LT"
+  },
+  "ZVRA": {
+    "aliases": [
+      "ZEVRA THERAPEUTICS INC",
+      "Zevra Inc",
+      "Zevra Therapeutics",
+      "Zevra Therapeutics Inc",
+      "zevra inc",
+      "zevra therapeutics",
+      "zevra therapeutics inc"
+    ],
+    "canonical_name": "ZEVRA THERAPEUTICS INC"
+  },
+  "ZYME": {
+    "aliases": [
+      "ZYMEWORKS INC",
+      "Zymeworks",
+      "Zymeworks Inc",
+      "zymeworks",
+      "zymeworks inc"
+    ],
+    "canonical_name": "ZYMEWORKS INC"
+  }
+}
