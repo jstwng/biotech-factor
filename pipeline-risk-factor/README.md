@@ -7,15 +7,17 @@ Monthly "pipeline risk" factor constructed from ClinicalTrials.gov, tested as an
 ```bash
 pip install -r requirements.txt
 
-# Build initial alias dictionary (auto variations)
+# Constituents first -- seeds the universe used by aliases + returns
+python src/02_ingest_constituents.py
+
+# Build initial alias dictionary (needs the constituent CSVs)
 python src/build_initial_aliases.py
 
 # Manually enrich aliases/company_aliases.json for the top 50 companies
 # by adding subsidiaries from each firm's most recent 10-K Exhibit 21.
 
-# Ingest raw data (can run in parallel)
+# Remaining ingestion (these three are independent; run in any order)
 python src/01_ingest_trials.py
-python src/02_ingest_constituents.py
 python src/03_ingest_returns.py
 python src/04_ingest_ff5.py
 
