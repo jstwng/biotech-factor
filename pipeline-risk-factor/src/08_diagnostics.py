@@ -116,10 +116,10 @@ def _build_alt_factor(scores: pd.DataFrame, returns: pd.DataFrame, cfg: dict, q_
         sub = sub[sub["pipeline_score"] > 0]
         if len(sub) < 10:
             continue
-        lo = sub["pipeline_score"].quantile(q_lo)
-        hi = sub["pipeline_score"].quantile(q_hi)
-        longs = sub[sub["pipeline_score"] >= lo]["ticker"].tolist()
-        shorts = sub[sub["pipeline_score"] <= hi]["ticker"].tolist()
+        short_cut = sub["pipeline_score"].quantile(q_lo)
+        long_cut = sub["pipeline_score"].quantile(q_hi)
+        longs = sub[sub["pipeline_score"] >= long_cut]["ticker"].tolist()
+        shorts = sub[sub["pipeline_score"] <= short_cut]["ticker"].tolist()
         t_next = pd.Timestamp(t) + pd.offsets.MonthEnd(lag)
         if t_next not in ret_pivot.index:
             continue

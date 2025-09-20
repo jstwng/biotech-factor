@@ -133,10 +133,10 @@ def build_factor(scores: pd.DataFrame, returns: pd.DataFrame, cfg: dict) -> pd.D
         sub = sub[sub["pipeline_score"] > 0]
         if len(sub) < 10:
             continue
-        lo = sub["pipeline_score"].quantile(q_lo)
-        hi_q = sub["pipeline_score"].quantile(q_hi)
-        longs = sub[sub["pipeline_score"] >= lo]["ticker"].tolist()
-        shorts = sub[sub["pipeline_score"] <= hi_q]["ticker"].tolist()
+        short_cut = sub["pipeline_score"].quantile(q_lo)   # e.g. 20th percentile
+        long_cut = sub["pipeline_score"].quantile(q_hi)    # e.g. 80th percentile
+        longs = sub[sub["pipeline_score"] >= long_cut]["ticker"].tolist()   # top 20%
+        shorts = sub[sub["pipeline_score"] <= short_cut]["ticker"].tolist() # bottom 20%
 
         t_next = pd.Timestamp(t) + pd.offsets.MonthEnd(lag)
         if t_next not in ret_pivot.index:
