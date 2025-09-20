@@ -2,6 +2,7 @@
   "AARD": {
     "aliases": [
       "AARDVARK THERAPEUTICS INC",
+      "Aardvark",
       "Aardvark Inc",
       "Aardvark Therapeutics",
       "Aardvark Therapeutics Inc",
@@ -14,6 +15,8 @@
   "ABBV": {
     "aliases": [
       "ABBVIE INC",
+      "AbbVie",
+      "AbbVie (prior sponsor, Abbott)",
       "Abbvie",
       "Abbvie Inc",
       "abbvie",
@@ -24,6 +27,7 @@
   "ABCL": {
     "aliases": [
       "ABCELLERA BIOLOGICS INC",
+      "Abcellera",
       "Abcellera Biologics",
       "Abcellera Biologics Inc",
       "abcellera biologics",
@@ -44,6 +48,7 @@
   "ABUS": {
     "aliases": [
       "ARBUTUS BIOPHARMA CORP",
+      "Arbutus",
       "Arbutus Biopharma",
       "Arbutus Biopharma Corp",
       "arbutus biopharma",
@@ -54,6 +59,7 @@
   "ABVX": {
     "aliases": [
       "ABIVAX AMERICAN DEPOSITARY SHARES",
+      "Abivax",
       "Abivax American Depositary Shares",
       "abivax american depositary shares"
     ],
@@ -62,6 +68,7 @@
   "ACAD": {
     "aliases": [
       "ACADIA PHARMACEUTICALS INC",
+      "Acadia",
       "Acadia Inc",
       "Acadia Pharmaceuticals",
       "Acadia Pharmaceuticals Inc",
@@ -94,6 +101,7 @@
   "ACRS": {
     "aliases": [
       "ACLARIS THERAPEUTICS INC",
+      "Aclaris",
       "Aclaris Inc",
       "Aclaris Therapeutics",
       "Aclaris Therapeutics Inc",
@@ -106,6 +114,7 @@
   "ADCT": {
     "aliases": [
       "ADC THERAPEUTICS SA",
+      "Adc",
       "Adc Sa",
       "Adc Therapeutics",
       "Adc Therapeutics Sa",
@@ -118,6 +127,7 @@
   "ADMA": {
     "aliases": [
       "ADMA BIOLOGICS INC",
+      "Adma",
       "Adma Biologics",
       "Adma Biologics Inc",
       "adma biologics",
@@ -128,6 +138,7 @@
   "ADPT": {
     "aliases": [
       "ADAPTIVE BIOTECHNOLOGIES CORP",
+      "Adaptive",
       "Adaptive Biotechnologies",
       "Adaptive Biotechnologies Corp",
       "adaptive biotechnologies",
@@ -138,6 +149,7 @@
   "ADRO": {
     "aliases": [
       "CHINOOK THERAPEUTICS INC",
+      "Chinook",
       "Chinook Inc",
       "Chinook Therapeutics",
       "Chinook Therapeutics Inc",
@@ -150,6 +162,7 @@
   "AGIO": {
     "aliases": [
       "AGIOS PHARMACEUTICALS INC",
+      "Agios",
       "Agios Inc",
       "Agios Pharmaceuticals",
       "Agios Pharmaceuticals Inc",
@@ -162,6 +175,7 @@
   "AKBA": {
     "aliases": [
       "AKEBIA THERAPEUTICS INC",
+      "Akebia",
       "Akebia Inc",
       "Akebia Therapeutics",
       "Akebia Therapeutics Inc",
@@ -174,6 +188,7 @@
   "AKE": {
     "aliases": [
       "AKERO THERAPEUTICS CVR",
+      "Akero",
       "Akero Cvr",
       "Akero Therapeutics Cvr",
       "akero cvr",
@@ -192,6 +207,7 @@
   "ALLO": {
     "aliases": [
       "ALLOGENE THERAPEUTICS INC",
+      "Allogene",
       "Allogene Inc",
       "Allogene Therapeutics",
       "Allogene Therapeutics Inc",
@@ -214,6 +230,7 @@
   "ALNY": {
     "aliases": [
       "ALNYLAM PHARMACEUTICALS INC",
+      "Alnylam",
       "Alnylam Inc",
       "Alnylam Pharmaceuticals",
       "Alnylam Pharmaceuticals Inc",
@@ -238,6 +255,7 @@
       "ALVOTECH SA",
       "Alvotech",
       "Alvotech Sa",
+      "Alvotech Swiss AG",
       "alvotech",
       "alvotech sa"
     ],
@@ -256,6 +274,7 @@
   "AMLX": {
     "aliases": [
       "AMYLYX PHARMACEUTICALS INC",
+      "Amylyx",
       "Amylyx Inc",
       "Amylyx Pharmaceuticals",
       "Amylyx Pharmaceuticals Inc",
@@ -288,6 +307,7 @@
   "ANRO": {
     "aliases": [
       "ALTO NEUROSCIENCE INC",
+      "Alto",
       "Alto Neuroscience",
       "Alto Neuroscience Inc",
       "alto neuroscience",
@@ -298,6 +318,7 @@
   "APGE": {
     "aliases": [
       "APOGEE THERAPEUTICS INC",
+      "Apogee",
       "Apogee Inc",
       "Apogee Therapeutics",
       "Apogee Therapeutics Inc",
@@ -310,6 +331,7 @@
   "APLS": {
     "aliases": [
       "APELLIS PHARMACEUTICALS INC",
+      "Apellis",
       "Apellis Inc",
       "Apellis Pharmaceuticals",
       "Apellis Pharmaceuticals Inc",
@@ -322,6 +344,7 @@
   "ARCT": {
     "aliases": [
       "ARCTURUS THERAPEUTICS HOLDINGS INC",
+      "Arcturus",
       "Arcturus Holdings Inc",
       "Arcturus Therapeutics Holdings",
       "Arcturus Therapeutics Holdings Inc",
@@ -344,6 +367,7 @@
   "ARGX": {
     "aliases": [
       "ARGENX SE ADR",
+      "Argenx",
       "Argenx Se Adr",
       "argenx se adr"
     ],
@@ -352,6 +376,7 @@
   "ARQT": {
     "aliases": [
       "ARCUTIS BIOTHERAPEUTICS INC",
+      "Arcutis",
       "Arcutis Biotherapeutics",
       "Arcutis Biotherapeutics Inc",
       "arcutis biotherapeutics",
@@ -372,6 +397,7 @@
   "ARWR": {
     "aliases": [
       "ARROWHEAD PHARMACEUTICALS INC",
+      "Arrowhead",
       "Arrowhead Inc",
       "Arrowhead Pharmaceuticals",
       "Arrowhead Pharmaceuticals Inc",
@@ -384,6 +410,7 @@
   "ASND": {
     "aliases": [
       "ASCENDIS PHARMA ADR REPRESENTING",
+      "Ascendis",
       "Ascendis Adr Representing",
       "Ascendis Pharma Adr Representing",
       "ascendis adr representing",
@@ -404,6 +431,7 @@
   "AUPH": {
     "aliases": [
       "AURINIA PHARMACEUTICALS INC",
+      "Aurinia",
       "Aurinia Inc",
       "Aurinia Pharmaceuticals",
       "Aurinia Pharmaceuticals Inc",
@@ -416,6 +444,7 @@
   "AURA": {
     "aliases": [
       "AURA BIOSCIENCES INC",
+      "Aura",
       "Aura Biosciences",
       "Aura Biosciences Inc",
       "Aura Inc",
@@ -428,6 +457,7 @@
   "AUTL": {
     "aliases": [
       "AUTOLUS THERAPEUTICS ADR PLC",
+      "Autolus",
       "Autolus Adr Plc",
       "Autolus Therapeutics Adr",
       "Autolus Therapeutics Adr Plc",
@@ -440,6 +470,7 @@
   "AVBP": {
     "aliases": [
       "ARRIVENT BIOPHARMA INC",
+      "Arrivent",
       "Arrivent Biopharma",
       "Arrivent Biopharma Inc",
       "arrivent biopharma",
@@ -450,6 +481,7 @@
   "AVIR": {
     "aliases": [
       "ATEA PHARMACEUTICALS INC",
+      "Atea",
       "Atea Inc",
       "Atea Pharmaceuticals",
       "Atea Pharmaceuticals Inc",
@@ -462,6 +494,7 @@
   "AVXL": {
     "aliases": [
       "ANAVEX LIFE SCIENCES CORP",
+      "Anavex",
       "Anavex Life Corp",
       "Anavex Life Sciences",
       "Anavex Life Sciences Corp",
@@ -474,6 +507,7 @@
   "AXSM": {
     "aliases": [
       "AXSOME THERAPEUTICS INC",
+      "Axsome",
       "Axsome Inc",
       "Axsome Therapeutics",
       "Axsome Therapeutics Inc",
@@ -486,6 +520,7 @@
   "BBIO": {
     "aliases": [
       "BRIDGEBIO PHARMA INC",
+      "Bridgebio",
       "Bridgebio Inc",
       "Bridgebio Pharma",
       "Bridgebio Pharma Inc",
@@ -498,6 +533,7 @@
   "BBOT": {
     "aliases": [
       "BRIDGEBIO ONCOLOGY THERAPEUTICS IN",
+      "Bridgebio",
       "Bridgebio Oncology In",
       "Bridgebio Oncology Therapeutics In",
       "bridgebio oncology in",
@@ -508,6 +544,7 @@
   "BCAX": {
     "aliases": [
       "BICARA THERAPEUTICS INC",
+      "Bicara",
       "Bicara Inc",
       "Bicara Therapeutics",
       "Bicara Therapeutics Inc",
@@ -520,6 +557,7 @@
   "BCRX": {
     "aliases": [
       "BIOCRYST PHARMACEUTICALS INC",
+      "Biocryst",
       "Biocryst Inc",
       "Biocryst Pharmaceuticals",
       "Biocryst Pharmaceuticals Inc",
@@ -532,6 +570,7 @@
   "BCYC": {
     "aliases": [
       "BICYCLE THERAPEUTICS ADR PLC",
+      "Bicycle",
       "Bicycle Adr Plc",
       "Bicycle Therapeutics Adr",
       "Bicycle Therapeutics Adr Plc",
@@ -544,6 +583,7 @@
   "BDTX": {
     "aliases": [
       "BLACK DIAMOND THERAPEUTICS INC",
+      "Black",
       "Black Diamond Inc",
       "Black Diamond Therapeutics",
       "Black Diamond Therapeutics Inc",
@@ -556,6 +596,7 @@
   "BEAM": {
     "aliases": [
       "BEAM THERAPEUTICS INC",
+      "Beam",
       "Beam Inc",
       "Beam Therapeutics",
       "Beam Therapeutics Inc",
@@ -588,6 +629,7 @@
   "BIOA": {
     "aliases": [
       "BIOAGE LABS INC",
+      "Bioage",
       "Bioage Labs",
       "Bioage Labs Inc",
       "bioage labs",
@@ -598,6 +640,7 @@
   "BMRN": {
     "aliases": [
       "BIOMARIN PHARMACEUTICAL INC",
+      "Biomarin",
       "Biomarin Inc",
       "Biomarin Pharmaceutical",
       "Biomarin Pharmaceutical Inc",
@@ -610,6 +653,7 @@
   "BNTX": {
     "aliases": [
       "BIONTECH SE ADR",
+      "Biontech",
       "Biontech Se Adr",
       "biontech se adr"
     ],
@@ -628,6 +672,7 @@
   "CABA": {
     "aliases": [
       "CABALETTA BIO INC",
+      "Cabaletta",
       "Cabaletta Bio",
       "Cabaletta Bio Inc",
       "cabaletta bio",
@@ -638,6 +683,7 @@
   "CADL": {
     "aliases": [
       "CANDEL THERAPEUTICS INC",
+      "Candel",
       "Candel Inc",
       "Candel Therapeutics",
       "Candel Therapeutics Inc",
@@ -650,6 +696,7 @@
   "CAI": {
     "aliases": [
       "CARIS LIFE SCIENCES INC",
+      "Caris",
       "Caris Life Inc",
       "Caris Life Sciences",
       "Caris Life Sciences Inc",
@@ -662,6 +709,7 @@
   "CAPR": {
     "aliases": [
       "CAPRICOR THERAPEUTICS INC",
+      "Capricor",
       "Capricor Inc",
       "Capricor Therapeutics",
       "Capricor Therapeutics Inc",
@@ -674,6 +722,7 @@
   "CATX": {
     "aliases": [
       "PERSPECTIVE THERAPEUTICS INC",
+      "Perspective",
       "Perspective Inc",
       "Perspective Therapeutics",
       "Perspective Therapeutics Inc",
@@ -728,6 +777,7 @@
   "CGEM": {
     "aliases": [
       "CULLINAN THERAPEUTICS INC",
+      "Cullinan",
       "Cullinan Inc",
       "Cullinan Therapeutics",
       "Cullinan Therapeutics Inc",
@@ -750,6 +800,7 @@
   "CLDX": {
     "aliases": [
       "CELLDEX THERAPEUTICS INC",
+      "Celldex",
       "Celldex Inc",
       "Celldex Therapeutics",
       "Celldex Therapeutics Inc",
@@ -762,6 +813,7 @@
   "CLLS": {
     "aliases": [
       "CELLECTIS ADR REPRESENTING SA",
+      "Cellectis",
       "Cellectis Adr Representing",
       "Cellectis Adr Representing Sa",
       "cellectis adr representing",
@@ -772,6 +824,7 @@
   "CMPS": {
     "aliases": [
       "COMPASS PATHWAYS ADR PLC",
+      "Compass",
       "Compass Pathways Adr",
       "Compass Pathways Adr Plc",
       "compass pathways adr",
@@ -782,6 +835,7 @@
   "CMPX": {
     "aliases": [
       "COMPASS THERAPEUTICS INC",
+      "Compass",
       "Compass Inc",
       "Compass Therapeutics",
       "Compass Therapeutics Inc",
@@ -794,6 +848,7 @@
   "CNTA": {
     "aliases": [
       "CENTESSA PHARMACEUTICALS AMERICAN",
+      "Centessa",
       "Centessa American",
       "Centessa Pharmaceuticals American",
       "centessa american",
@@ -804,6 +859,7 @@
   "COGT": {
     "aliases": [
       "COGENT BIOSCIENCES INC",
+      "Cogent",
       "Cogent Biosciences",
       "Cogent Biosciences Inc",
       "Cogent Inc",
@@ -816,6 +872,7 @@
   "CPRX": {
     "aliases": [
       "CATALYST PHARMACEUTICALS INC",
+      "Catalyst",
       "Catalyst Inc",
       "Catalyst Pharmaceuticals",
       "Catalyst Pharmaceuticals Inc",
@@ -828,6 +885,7 @@
   "CRBU": {
     "aliases": [
       "CARIBOU BIOSCIENCES INC",
+      "Caribou",
       "Caribou Biosciences",
       "Caribou Biosciences Inc",
       "Caribou Inc",
@@ -840,6 +898,7 @@
   "CRGX": {
     "aliases": [
       "CARGO THERAPEUTICS INC",
+      "Cargo",
       "Cargo Inc",
       "Cargo Therapeutics",
       "Cargo Therapeutics Inc",
@@ -852,6 +911,7 @@
   "CRL": {
     "aliases": [
       "CHARLES RIVER LABORATORIES INTERNA",
+      "Charles",
       "Charles River Laboratories Interna",
       "charles river laboratories interna"
     ],
@@ -860,6 +920,7 @@
   "CRNX": {
     "aliases": [
       "CRINETICS PHARMACEUTICALS INC",
+      "Crinetics",
       "Crinetics Inc",
       "Crinetics Pharmaceuticals",
       "Crinetics Pharmaceuticals Inc",
@@ -872,6 +933,7 @@
   "CRSP": {
     "aliases": [
       "CRISPR THERAPEUTICS AG",
+      "Crispr",
       "Crispr Ag",
       "Crispr Therapeutics Ag",
       "crispr ag",
@@ -882,6 +944,7 @@
   "CRVS": {
     "aliases": [
       "CORVUS PHARMACEUTICALS INC",
+      "Corvus",
       "Corvus Inc",
       "Corvus Pharmaceuticals",
       "Corvus Pharmaceuticals Inc",
@@ -894,6 +957,7 @@
   "CSTL": {
     "aliases": [
       "CASTLE BIOSCIENCES INC",
+      "Castle",
       "Castle Biosciences",
       "Castle Biosciences Inc",
       "Castle Inc",
@@ -906,6 +970,7 @@
   "CTKB": {
     "aliases": [
       "CYTEK BIOSCIENCES INC",
+      "Cytek",
       "Cytek Biosciences",
       "Cytek Biosciences Inc",
       "Cytek Inc",
@@ -918,6 +983,7 @@
   "CTMX": {
     "aliases": [
       "CYTOMX THERAPEUTICS INC",
+      "Cytomx",
       "Cytomx Inc",
       "Cytomx Therapeutics",
       "Cytomx Therapeutics Inc",
@@ -930,6 +996,7 @@
   "CTNM": {
     "aliases": [
       "CONTINEUM THERAPEUTICS INC CLASS A",
+      "Contineum",
       "Contineum Inc Class A",
       "Contineum Therapeutics Inc Class A",
       "contineum inc class a",
@@ -950,6 +1017,7 @@
   "DAWN": {
     "aliases": [
       "DAY ONE BIOPHARMACEUTICALS INC",
+      "Day",
       "Day One Biopharmaceuticals",
       "Day One Biopharmaceuticals Inc",
       "day one biopharmaceuticals",
@@ -960,6 +1028,7 @@
   "DFTX": {
     "aliases": [
       "DEFINIUM THERAPEUTICS INC",
+      "Definium",
       "Definium Inc",
       "Definium Therapeutics",
       "Definium Therapeutics Inc",
@@ -972,6 +1041,7 @@
   "DMRA": {
     "aliases": [
       "DAMORA THERAPEUTICS INC",
+      "Damora",
       "Damora Inc",
       "Damora Therapeutics",
       "Damora Therapeutics Inc",
@@ -984,6 +1054,7 @@
   "DNA": {
     "aliases": [
       "GINKGO BIOWORKS HOLDINGS INC CLASS",
+      "Ginkgo",
       "Ginkgo Bioworks Holdings Inc Class",
       "ginkgo bioworks holdings inc class"
     ],
@@ -992,6 +1063,7 @@
   "DNLI": {
     "aliases": [
       "DENALI THERAPEUTICS INC",
+      "Denali",
       "Denali Inc",
       "Denali Therapeutics",
       "Denali Therapeutics Inc",
@@ -1004,6 +1076,7 @@
   "DNTH": {
     "aliases": [
       "DIANTHUS THERAPEUTICS INC",
+      "Dianthus",
       "Dianthus Inc",
       "Dianthus Therapeutics",
       "Dianthus Therapeutics Inc",
@@ -1016,6 +1089,7 @@
   "DSGN": {
     "aliases": [
       "DESIGN THERAPEUTICS INC",
+      "Design",
       "Design Inc",
       "Design Therapeutics",
       "Design Therapeutics Inc",
@@ -1028,6 +1102,7 @@
   "DYN": {
     "aliases": [
       "DYNE THERAPEUTICS INC",
+      "Dyne",
       "Dyne Inc",
       "Dyne Therapeutics",
       "Dyne Therapeutics Inc",
@@ -1040,6 +1115,7 @@
   "EBS": {
     "aliases": [
       "EMERGENT BIOSOLUTIONS INC",
+      "Emergent",
       "Emergent Biosolutions",
       "Emergent Biosolutions Inc",
       "emergent biosolutions",
@@ -1050,6 +1126,7 @@
   "EDIT": {
     "aliases": [
       "EDITAS MEDICINE INC",
+      "Editas",
       "Editas Medicine",
       "Editas Medicine Inc",
       "editas medicine",
@@ -1060,6 +1137,7 @@
   "ELVN": {
     "aliases": [
       "ENLIVEN THERAPEUTICS INC",
+      "Enliven",
       "Enliven Inc",
       "Enliven Therapeutics",
       "Enliven Therapeutics Inc",
@@ -1072,6 +1150,7 @@
   "ENTA": {
     "aliases": [
       "ENANTA PHARMACEUTICALS INC",
+      "Enanta",
       "Enanta Inc",
       "Enanta Pharmaceuticals",
       "Enanta Pharmaceuticals Inc",
@@ -1094,6 +1173,7 @@
   "EWTX": {
     "aliases": [
       "EDGEWISE THERAPEUTICS INC",
+      "Edgewise",
       "Edgewise Inc",
       "Edgewise Therapeutics",
       "Edgewise Therapeutics Inc",
@@ -1128,6 +1208,7 @@
   "FHTX": {
     "aliases": [
       "FOGHORN THERAPEUTICS INC",
+      "Foghorn",
       "Foghorn Inc",
       "Foghorn Therapeutics",
       "Foghorn Therapeutics Inc",
@@ -1140,6 +1221,7 @@
   "FLGT": {
     "aliases": [
       "FULGENT GENETICS INC",
+      "Fulgent",
       "Fulgent Genetics",
       "Fulgent Genetics Inc",
       "fulgent genetics",
@@ -1150,6 +1232,7 @@
   "FOLD": {
     "aliases": [
       "AMICUS THERAPEUTICS INC",
+      "Amicus",
       "Amicus Inc",
       "Amicus Therapeutics",
       "Amicus Therapeutics Inc",
@@ -1162,6 +1245,7 @@
   "FTRE": {
     "aliases": [
       "FORTREA HOLDINGS INC",
+      "Fortrea",
       "Fortrea Holdings",
       "Fortrea Holdings Inc",
       "fortrea holdings",
@@ -1172,6 +1256,7 @@
   "FULC": {
     "aliases": [
       "FULCRUM THERAPEUTICS INC",
+      "Fulcrum",
       "Fulcrum Inc",
       "Fulcrum Therapeutics",
       "Fulcrum Therapeutics Inc",
@@ -1204,9 +1289,14 @@
   "GILD": {
     "aliases": [
       "GILEAD SCIENCES INC",
+      "Gilead",
       "Gilead Inc",
       "Gilead Sciences",
       "Gilead Sciences Inc",
+      "Kite",
+      "Kite Pharma",
+      "Kite Pharmaceuticals",
+      "Kite, A Gilead Company",
       "gilead inc",
       "gilead sciences",
       "gilead sciences inc"
@@ -1216,6 +1306,7 @@
   "GLPG": {
     "aliases": [
       "GALAPAGOS ADR REPRESENTING NV",
+      "Galapagos",
       "Galapagos Adr Representing",
       "Galapagos Adr Representing Nv",
       "galapagos adr representing",
@@ -1226,6 +1317,7 @@
   "GLUE": {
     "aliases": [
       "MONTE ROSA THERAPEUTICS INC",
+      "Monte",
       "Monte Rosa Inc",
       "Monte Rosa Therapeutics",
       "Monte Rosa Therapeutics Inc",
@@ -1238,6 +1330,8 @@
   "GMAB": {
     "aliases": [
       "GENMAB SPONSORED ADR",
+      "Genmab",
+      "Genmab A/S",
       "Genmab Sponsored Adr",
       "genmab sponsored adr"
     ],
@@ -1246,6 +1340,7 @@
   "GOSS": {
     "aliases": [
       "GOSSAMER BIO INC",
+      "Gossamer",
       "Gossamer Bio",
       "Gossamer Bio Inc",
       "gossamer bio",
@@ -1256,6 +1351,7 @@
   "GPCR": {
     "aliases": [
       "STRUCTURE THERAPEUTICS ADR INC",
+      "Structure",
       "Structure Adr Inc",
       "Structure Therapeutics Adr",
       "Structure Therapeutics Adr Inc",
@@ -1278,6 +1374,7 @@
   "GRFS": {
     "aliases": [
       "GRIFOLS ADR REPRESENTING ONE NON-V",
+      "Grifols",
       "Grifols Adr Representing One Non-V",
       "grifols adr representing one non-v"
     ],
@@ -1286,6 +1383,7 @@
   "HALO": {
     "aliases": [
       "HALOZYME THERAPEUTICS INC",
+      "Halozyme",
       "Halozyme Inc",
       "Halozyme Therapeutics",
       "Halozyme Therapeutics Inc",
@@ -1318,6 +1416,7 @@
   "IDYA": {
     "aliases": [
       "IDEAYA BIOSCIENCES INC",
+      "Ideaya",
       "Ideaya Biosciences",
       "Ideaya Biosciences Inc",
       "Ideaya Inc",
@@ -1326,6 +1425,17 @@
       "ideaya inc"
     ],
     "canonical_name": "IDEAYA BIOSCIENCES INC"
+  },
+  "IGMS": {
+    "aliases": [
+      "IGM",
+      "IGM Biosciences",
+      "IGM Biosciences Inc.",
+      "IGM Biosciences, Inc.",
+      "Igm",
+      "igm biosciences"
+    ],
+    "canonical_name": "IGM Biosciences Inc"
   },
   "ILMN": {
     "aliases": [
@@ -1340,6 +1450,7 @@
   "IMCR": {
     "aliases": [
       "IMMUNOCORE HOLDINGS ADR PLC",
+      "Immunocore",
       "Immunocore Holdings Adr",
       "Immunocore Holdings Adr Plc",
       "immunocore holdings adr",
@@ -1350,6 +1461,7 @@
   "IMMP": {
     "aliases": [
       "IMMUTEP ADS REPRESENTING LTD",
+      "Immutep",
       "Immutep Ads Representing",
       "Immutep Ads Representing Ltd",
       "immutep ads representing",
@@ -1370,6 +1482,7 @@
   "IMRX": {
     "aliases": [
       "IMMUNEERING CORP CLASS A",
+      "Immuneering",
       "Immuneering Corp Class A",
       "immuneering corp class a"
     ],
@@ -1380,6 +1493,8 @@
       "IMMUNOVANT INC",
       "Immunovant",
       "Immunovant Inc",
+      "Immunovant Sciences",
+      "Immunovant Sciences GmbH",
       "immunovant",
       "immunovant inc"
     ],
@@ -1388,6 +1503,7 @@
   "INBX": {
     "aliases": [
       "INHIBRX BIOSCIENCES INC",
+      "Inhibrx",
       "Inhibrx Biosciences",
       "Inhibrx Biosciences Inc",
       "Inhibrx Inc",
@@ -1420,6 +1536,7 @@
   "IONS": {
     "aliases": [
       "IONIS PHARMACEUTICALS INC",
+      "Ionis",
       "Ionis Inc",
       "Ionis Pharmaceuticals",
       "Ionis Pharmaceuticals Inc",
@@ -1432,6 +1549,7 @@
   "IOVA": {
     "aliases": [
       "IOVANCE BIOTHERAPEUTICS INC",
+      "Iovance",
       "Iovance Biotherapeutics",
       "Iovance Biotherapeutics Inc",
       "iovance biotherapeutics",
@@ -1442,6 +1560,7 @@
   "IRON": {
     "aliases": [
       "DISC MEDICINE INC",
+      "Disc",
       "Disc Medicine",
       "Disc Medicine Inc",
       "disc medicine",
@@ -1452,6 +1571,7 @@
   "IRWD": {
     "aliases": [
       "IRONWOOD PHARMA INC CLASS A",
+      "Ironwood",
       "Ironwood Inc Class A",
       "Ironwood Pharma Inc Class A",
       "ironwood inc class a",
@@ -1472,6 +1592,7 @@
   "JANX": {
     "aliases": [
       "JANUX THERAPEUTICS INC",
+      "Janux",
       "Janux Inc",
       "Janux Therapeutics",
       "Janux Therapeutics Inc",
@@ -1484,6 +1605,7 @@
   "KALV": {
     "aliases": [
       "KALVISTA PHARMACEUTICALS INC",
+      "Kalvista",
       "Kalvista Inc",
       "Kalvista Pharmaceuticals",
       "Kalvista Pharmaceuticals Inc",
@@ -1496,6 +1618,7 @@
   "KOD": {
     "aliases": [
       "KODIAK SCIENCES INC",
+      "Kodiak",
       "Kodiak Inc",
       "Kodiak Sciences",
       "Kodiak Sciences Inc",
@@ -1508,6 +1631,7 @@
   "KROS": {
     "aliases": [
       "KEROS THERAPEUTICS INC",
+      "Keros",
       "Keros Inc",
       "Keros Therapeutics",
       "Keros Therapeutics Inc",
@@ -1520,6 +1644,7 @@
   "KRYS": {
     "aliases": [
       "KRYSTAL BIOTECH INC",
+      "Krystal",
       "Krystal Biotech",
       "Krystal Biotech Inc",
       "Krystal Inc",
@@ -1532,6 +1657,7 @@
   "KURA": {
     "aliases": [
       "KURA ONCOLOGY INC",
+      "Kura",
       "Kura Oncology",
       "Kura Oncology Inc",
       "kura oncology",
@@ -1542,6 +1668,7 @@
   "KYMR": {
     "aliases": [
       "KYMERA THERAPEUTICS INC",
+      "Kymera",
       "Kymera Inc",
       "Kymera Therapeutics",
       "Kymera Therapeutics Inc",
@@ -1554,6 +1681,7 @@
   "KYTX": {
     "aliases": [
       "KYVERNA THERAPEUTICS INC",
+      "Kyverna",
       "Kyverna Inc",
       "Kyverna Therapeutics",
       "Kyverna Therapeutics Inc",
@@ -1566,6 +1694,7 @@
   "LAB": {
     "aliases": [
       "STANDARD BIOTOOLS INC",
+      "Standard",
       "Standard Biotools",
       "Standard Biotools Inc",
       "standard biotools",
@@ -1576,6 +1705,7 @@
   "LCTX": {
     "aliases": [
       "LINEAGE CELL THERAPEUTICS INC",
+      "Lineage",
       "Lineage Cell Inc",
       "Lineage Cell Therapeutics",
       "Lineage Cell Therapeutics Inc",
@@ -1588,6 +1718,7 @@
   "LEGN": {
     "aliases": [
       "LEGEND BIOTECH ADR REP CORP",
+      "Legend",
       "Legend Adr Rep Corp",
       "Legend Biotech Adr Rep",
       "Legend Biotech Adr Rep Corp",
@@ -1600,6 +1731,7 @@
   "LENZ": {
     "aliases": [
       "LENZ THERAPEUTICS INC",
+      "Lenz",
       "Lenz Inc",
       "Lenz Therapeutics",
       "Lenz Therapeutics Inc",
@@ -1612,6 +1744,7 @@
   "LRMR": {
     "aliases": [
       "LARIMAR THERAPEUTICS INC",
+      "Larimar",
       "Larimar Inc",
       "Larimar Therapeutics",
       "Larimar Therapeutics Inc",
@@ -1624,6 +1757,7 @@
   "LXEO": {
     "aliases": [
       "LEXEO THERAPEUTICS INC",
+      "Lexeo",
       "Lexeo Inc",
       "Lexeo Therapeutics",
       "Lexeo Therapeutics Inc",
@@ -1636,6 +1770,7 @@
   "LYEL": {
     "aliases": [
       "LYELL IMMUNOPHARMA INC",
+      "Lyell",
       "Lyell Immunopharma",
       "Lyell Immunopharma Inc",
       "lyell immunopharma",
@@ -1646,6 +1781,7 @@
   "MAZE": {
     "aliases": [
       "MAZE THERAPEUTICS INC",
+      "Maze",
       "Maze Inc",
       "Maze Therapeutics",
       "Maze Therapeutics Inc",
@@ -1658,6 +1794,7 @@
   "MBX": {
     "aliases": [
       "MBX BIOSCIENCES INC",
+      "Mbx",
       "Mbx Biosciences",
       "Mbx Biosciences Inc",
       "Mbx Inc",
@@ -1670,6 +1807,7 @@
   "MDGL": {
     "aliases": [
       "MADRIGAL PHARMACEUTICALS INC",
+      "Madrigal",
       "Madrigal Inc",
       "Madrigal Pharmaceuticals",
       "Madrigal Pharmaceuticals Inc",
@@ -1682,6 +1820,7 @@
   "MDXG": {
     "aliases": [
       "MIMEDX GROUP INC",
+      "Mimedx",
       "Mimedx Group",
       "Mimedx Group Inc",
       "mimedx group",
@@ -1692,6 +1831,7 @@
   "MEDP": {
     "aliases": [
       "MEDPACE HOLDINGS INC",
+      "Medpace",
       "Medpace Holdings",
       "Medpace Holdings Inc",
       "medpace holdings",
@@ -1702,6 +1842,7 @@
   "MENS": {
     "aliases": [
       "JYONG BIOTECH LTD",
+      "Jyong",
       "Jyong Biotech",
       "Jyong Biotech Ltd",
       "Jyong Ltd",
@@ -1714,6 +1855,7 @@
   "MESO": {
     "aliases": [
       "MESOBLAST ADR REPRESENTING LTD",
+      "Mesoblast",
       "Mesoblast Adr Representing",
       "Mesoblast Adr Representing Ltd",
       "mesoblast adr representing",
@@ -1724,6 +1866,7 @@
   "MGTX": {
     "aliases": [
       "MEIRAGTX HOLDINGS PLC",
+      "Meiragtx",
       "Meiragtx Holdings",
       "Meiragtx Holdings Plc",
       "meiragtx holdings",
@@ -1734,6 +1877,7 @@
   "MIRM": {
     "aliases": [
       "MIRUM PHARMACEUTICALS INC",
+      "Mirum",
       "Mirum Inc",
       "Mirum Pharmaceuticals",
       "Mirum Pharmaceuticals Inc",
@@ -1746,6 +1890,7 @@
   "MLYS": {
     "aliases": [
       "MINERALYS THERAPEUTICS INC",
+      "Mineralys",
       "Mineralys Inc",
       "Mineralys Therapeutics",
       "Mineralys Therapeutics Inc",
@@ -1778,6 +1923,7 @@
   "MRVI": {
     "aliases": [
       "MARAVAI LIFESCIENCES HOLDINGS INC",
+      "Maravai",
       "Maravai Lifesciences Holdings",
       "Maravai Lifesciences Holdings Inc",
       "maravai lifesciences holdings",
@@ -1788,6 +1934,7 @@
   "MYGN": {
     "aliases": [
       "MYRIAD GENETICS INC",
+      "Myriad",
       "Myriad Genetics",
       "Myriad Genetics Inc",
       "myriad genetics",
@@ -1798,6 +1945,7 @@
   "NAMS": {
     "aliases": [
       "NEWAMSTERDAM PHARMA NV",
+      "Newamsterdam",
       "Newamsterdam Nv",
       "Newamsterdam Pharma",
       "Newamsterdam Pharma Nv",
@@ -1810,6 +1958,7 @@
   "NBIX": {
     "aliases": [
       "NEUROCRINE BIOSCIENCES INC",
+      "Neurocrine",
       "Neurocrine Biosciences",
       "Neurocrine Biosciences Inc",
       "Neurocrine Inc",
@@ -1822,6 +1971,7 @@
   "NBP": {
     "aliases": [
       "NOVABRIDGE BIOSCIENCES ADR",
+      "Novabridge",
       "Novabridge Adr",
       "Novabridge Biosciences Adr",
       "novabridge adr",
@@ -1842,6 +1992,7 @@
   "NMRA": {
     "aliases": [
       "NEUMORA THERAPEUTICS INC",
+      "Neumora",
       "Neumora Inc",
       "Neumora Therapeutics",
       "Neumora Therapeutics Inc",
@@ -1854,6 +2005,7 @@
   "NRIX": {
     "aliases": [
       "NURIX THERAPEUTICS INC",
+      "Nurix",
       "Nurix Inc",
       "Nurix Therapeutics",
       "Nurix Therapeutics Inc",
@@ -1866,6 +2018,7 @@
   "NTLA": {
     "aliases": [
       "INTELLIA THERAPEUTICS INC",
+      "Intellia",
       "Intellia Inc",
       "Intellia Therapeutics",
       "Intellia Therapeutics Inc",
@@ -1888,6 +2041,7 @@
   "NUVB": {
     "aliases": [
       "NUVATION BIO INC CLASS A",
+      "Nuvation",
       "Nuvation Bio Inc Class A",
       "nuvation bio inc class a"
     ],
@@ -1896,6 +2050,7 @@
   "NUVL": {
     "aliases": [
       "NUVALENT INC CLASS A",
+      "Nuvalent",
       "Nuvalent Inc Class A",
       "nuvalent inc class a"
     ],
@@ -1944,6 +2099,7 @@
   "OLMA": {
     "aliases": [
       "OLEMA PHARMACEUTICALS INC",
+      "Olema",
       "Olema Inc",
       "Olema Pharmaceuticals",
       "Olema Pharmaceuticals Inc",
@@ -1956,6 +2112,7 @@
   "ONC": {
     "aliases": [
       "BEONE MEDICINES AG",
+      "Beone",
       "Beone Ag",
       "Beone Medicines Ag",
       "beone ag",
@@ -1966,6 +2123,7 @@
   "OPK": {
     "aliases": [
       "OPKO HEALTH INC",
+      "Opko",
       "Opko Health",
       "Opko Health Inc",
       "opko health",
@@ -1976,6 +2134,7 @@
   "ORIC": {
     "aliases": [
       "ORIC PHARMACEUTICALS INC",
+      "Oric",
       "Oric Inc",
       "Oric Pharmaceuticals",
       "Oric Pharmaceuticals Inc",
@@ -1988,6 +2147,7 @@
   "ORKA": {
     "aliases": [
       "ORUKA THERAPEUTICS INC",
+      "Oruka",
       "Oruka Inc",
       "Oruka Therapeutics",
       "Oruka Therapeutics Inc",
@@ -2000,6 +2160,7 @@
   "PACB": {
     "aliases": [
       "PACIFIC BIOSCIENCES OF CALIFORNIA",
+      "Pacific",
       "Pacific Biosciences Of California",
       "Pacific Of California",
       "pacific biosciences of california",
@@ -2040,6 +2201,7 @@
   "PHAT": {
     "aliases": [
       "PHATHOM PHARMACEUTICALS INC",
+      "Phathom",
       "Phathom Inc",
       "Phathom Pharmaceuticals",
       "Phathom Pharmaceuticals Inc",
@@ -2052,6 +2214,7 @@
   "PHVS": {
     "aliases": [
       "PHARVARIS N V NV",
+      "Pharvaris",
       "Pharvaris N V",
       "Pharvaris N V Nv",
       "pharvaris n v",
@@ -2062,6 +2225,7 @@
   "PRAX": {
     "aliases": [
       "PRAXIS PRECISION MEDICINES INC",
+      "Praxis",
       "Praxis Precision Inc",
       "Praxis Precision Medicines",
       "Praxis Precision Medicines Inc",
@@ -2074,6 +2238,7 @@
   "PRME": {
     "aliases": [
       "PRIME MEDICINE INC",
+      "Prime",
       "Prime Medicine",
       "Prime Medicine Inc",
       "prime medicine",
@@ -2104,6 +2269,7 @@
   "PTCT": {
     "aliases": [
       "PTC THERAPEUTICS INC",
+      "Ptc",
       "Ptc Inc",
       "Ptc Therapeutics",
       "Ptc Therapeutics Inc",
@@ -2116,6 +2282,7 @@
   "PTGX": {
     "aliases": [
       "PROTAGONIST THERAPEUTICS INC",
+      "Protagonist",
       "Protagonist Inc",
       "Protagonist Therapeutics",
       "Protagonist Therapeutics Inc",
@@ -2128,6 +2295,7 @@
   "PURR": {
     "aliases": [
       "HYPERLIQUID STRATEGIES",
+      "Hyperliquid",
       "Hyperliquid Strategies",
       "hyperliquid strategies"
     ],
@@ -2136,6 +2304,7 @@
   "PVLA": {
     "aliases": [
       "PALVELLA THERAPEUTICS INC",
+      "Palvella",
       "Palvella Inc",
       "Palvella Therapeutics",
       "Palvella Therapeutics Inc",
@@ -2148,6 +2317,7 @@
   "PYXS": {
     "aliases": [
       "PYXIS ONCOLOGY INC",
+      "Pyxis",
       "Pyxis Oncology",
       "Pyxis Oncology Inc",
       "pyxis oncology",
@@ -2158,6 +2328,7 @@
   "QSI": {
     "aliases": [
       "QUANTUM SI INC CLASS A",
+      "Quantum",
       "Quantum Si Inc Class A",
       "quantum si inc class a"
     ],
@@ -2186,6 +2357,7 @@
   "RAPP": {
     "aliases": [
       "RAPPORT THERAPEUTICS INC",
+      "Rapport",
       "Rapport Inc",
       "Rapport Therapeutics",
       "Rapport Therapeutics Inc",
@@ -2198,6 +2370,7 @@
   "RARE": {
     "aliases": [
       "ULTRAGENYX PHARMACEUTICAL INC",
+      "Ultragenyx",
       "Ultragenyx Inc",
       "Ultragenyx Pharmaceutical",
       "Ultragenyx Pharmaceutical Inc",
@@ -2210,6 +2383,7 @@
   "RCKT": {
     "aliases": [
       "ROCKET PHARMACEUTICALS INC",
+      "Rocket",
       "Rocket Inc",
       "Rocket Pharmaceuticals",
       "Rocket Pharmaceuticals Inc",
@@ -2222,6 +2396,7 @@
   "RCUS": {
     "aliases": [
       "ARCUS BIOSCIENCES INC",
+      "Arcus",
       "Arcus Biosciences",
       "Arcus Biosciences Inc",
       "Arcus Inc",
@@ -2234,6 +2409,7 @@
   "REGN": {
     "aliases": [
       "REGENERON PHARMACEUTICALS INC",
+      "Regeneron",
       "Regeneron Inc",
       "Regeneron Pharmaceuticals",
       "Regeneron Pharmaceuticals Inc",
@@ -2246,6 +2422,7 @@
   "REPL": {
     "aliases": [
       "REPLIMUNE GROUP INC",
+      "Replimune",
       "Replimune Group",
       "Replimune Group Inc",
       "replimune group",
@@ -2276,6 +2453,7 @@
   "RIGL": {
     "aliases": [
       "RIGEL PHARMACEUTICALS INC",
+      "Rigel",
       "Rigel Inc",
       "Rigel Pharmaceuticals",
       "Rigel Pharmaceuticals Inc",
@@ -2288,6 +2466,7 @@
   "RLAY": {
     "aliases": [
       "RELAY THERAPEUTICS INC",
+      "Relay",
       "Relay Inc",
       "Relay Therapeutics",
       "Relay Therapeutics Inc",
@@ -2300,6 +2479,7 @@
   "ROIV": {
     "aliases": [
       "ROIVANT SCIENCES LTD",
+      "Roivant",
       "Roivant Ltd",
       "Roivant Sciences",
       "Roivant Sciences Ltd",
@@ -2312,6 +2492,7 @@
   "RVMD": {
     "aliases": [
       "REVOLUTION MEDICINES INC",
+      "Revolution",
       "Revolution Inc",
       "Revolution Medicines",
       "Revolution Medicines Inc",
@@ -2324,6 +2505,7 @@
   "RXRX": {
     "aliases": [
       "RECURSION PHARMACEUTICALS INC CLAS",
+      "Recursion",
       "Recursion Inc Clas",
       "Recursion Pharmaceuticals Inc Clas",
       "recursion inc clas",
@@ -2334,6 +2516,7 @@
   "RYTM": {
     "aliases": [
       "RHYTHM PHARMACEUTICALS INC",
+      "Rhythm",
       "Rhythm Inc",
       "Rhythm Pharmaceuticals",
       "Rhythm Pharmaceuticals Inc",
@@ -2346,6 +2529,7 @@
   "SANA": {
     "aliases": [
       "SANA BIOTECHNOLOGY INC",
+      "Sana",
       "Sana Biotechnology",
       "Sana Biotechnology Inc",
       "Sana Inc",
@@ -2368,6 +2552,7 @@
   "SGAFT": {
     "aliases": [
       "CASH COLLATERAL USD SGAFT",
+      "Cash",
       "Cash Collateral Usd Sgaft",
       "cash collateral usd sgaft"
     ],
@@ -2376,6 +2561,7 @@
   "SGMT": {
     "aliases": [
       "SAGIMET BIOSCIENCES INC SERIES A",
+      "Sagimet",
       "Sagimet Biosciences Inc Series A",
       "Sagimet Inc Series A",
       "sagimet biosciences inc series a",
@@ -2386,6 +2572,7 @@
   "SION": {
     "aliases": [
       "SIONNA THERAPEUTICS INC",
+      "Sionna",
       "Sionna Inc",
       "Sionna Therapeutics",
       "Sionna Therapeutics Inc",
@@ -2398,6 +2585,7 @@
   "SLDB": {
     "aliases": [
       "SOLID BIOSCIENCES INC",
+      "Solid",
       "Solid Biosciences",
       "Solid Biosciences Inc",
       "Solid Inc",
@@ -2410,6 +2598,7 @@
   "SLN": {
     "aliases": [
       "SILENCE THERAPEUTICS ADR REPRESENT",
+      "Silence",
       "Silence Adr Represent",
       "Silence Therapeutics Adr Represent",
       "silence adr represent",
@@ -2420,6 +2609,7 @@
   "SLNO": {
     "aliases": [
       "SOLENO THERAPEUTICS INC",
+      "Soleno",
       "Soleno Inc",
       "Soleno Therapeutics",
       "Soleno Therapeutics Inc",
@@ -2432,6 +2622,7 @@
   "SLS": {
     "aliases": [
       "SELLAS LIFE SCIENCES GROUP I",
+      "Sellas",
       "Sellas Life Group I",
       "Sellas Life Sciences Group I",
       "sellas life group i",
@@ -2442,6 +2633,7 @@
   "SMMT": {
     "aliases": [
       "SUMMIT THERAPEUTICS INC",
+      "Summit",
       "Summit Inc",
       "Summit Therapeutics",
       "Summit Therapeutics Inc",
@@ -2454,6 +2646,7 @@
   "SNDX": {
     "aliases": [
       "SYNDAX PHARMACEUTICALS INC",
+      "Syndax",
       "Syndax Inc",
       "Syndax Pharmaceuticals",
       "Syndax Pharmaceuticals Inc",
@@ -2466,6 +2659,7 @@
   "SPRY": {
     "aliases": [
       "ARS PHARMACEUTICALS INC",
+      "Ars",
       "Ars Inc",
       "Ars Pharmaceuticals",
       "Ars Pharmaceuticals Inc",
@@ -2478,6 +2672,7 @@
   "SRPT": {
     "aliases": [
       "SAREPTA THERAPEUTICS INC",
+      "Sarepta",
       "Sarepta Inc",
       "Sarepta Therapeutics",
       "Sarepta Therapeutics Inc",
@@ -2490,6 +2685,7 @@
   "SRRK": {
     "aliases": [
       "SCHOLAR ROCK HOLDING CORP",
+      "Scholar",
       "Scholar Rock Holding",
       "Scholar Rock Holding Corp",
       "scholar rock holding",
@@ -2500,6 +2696,7 @@
   "STOK": {
     "aliases": [
       "STOKE THERAPEUTICS INC",
+      "Stoke",
       "Stoke Inc",
       "Stoke Therapeutics",
       "Stoke Therapeutics Inc",
@@ -2532,6 +2729,7 @@
   "SYRE": {
     "aliases": [
       "SPYRE THERAPEUTICS INC",
+      "Spyre",
       "Spyre Inc",
       "Spyre Therapeutics",
       "Spyre Therapeutics Inc",
@@ -2544,6 +2742,7 @@
   "TARS": {
     "aliases": [
       "TARSUS PHARMACEUTICALS INC",
+      "Tarsus",
       "Tarsus Inc",
       "Tarsus Pharmaceuticals",
       "Tarsus Pharmaceuticals Inc",
@@ -2556,6 +2755,7 @@
   "TBPH": {
     "aliases": [
       "THERAVANCE BIOPHARMA INC",
+      "Theravance",
       "Theravance Biopharma",
       "Theravance Biopharma Inc",
       "theravance biopharma",
@@ -2566,6 +2766,7 @@
   "TECH": {
     "aliases": [
       "BIO TECHNE CORP",
+      "Bio",
       "Bio Techne",
       "Bio Techne Corp",
       "bio techne",
@@ -2576,6 +2777,7 @@
   "TECX": {
     "aliases": [
       "TECTONIC THERAPEUTIC INC",
+      "Tectonic",
       "Tectonic Therapeutic",
       "Tectonic Therapeutic Inc",
       "tectonic therapeutic",
@@ -2586,6 +2788,7 @@
   "TEM": {
     "aliases": [
       "TEMPUS AI INC CLASS A",
+      "Tempus",
       "Tempus Ai Inc Class A",
       "tempus ai inc class a"
     ],
@@ -2594,6 +2797,7 @@
   "TERN": {
     "aliases": [
       "TERNS PHARMACEUTICALS INC",
+      "Terns",
       "Terns Inc",
       "Terns Pharmaceuticals",
       "Terns Pharmaceuticals Inc",
@@ -2618,6 +2822,7 @@
   "THRD": {
     "aliases": [
       "THIRD HARMONIC BIO INC",
+      "Third",
       "Third Harmonic Bio",
       "Third Harmonic Bio Inc",
       "third harmonic bio",
@@ -2628,6 +2833,7 @@
   "TKNO": {
     "aliases": [
       "ALPHA TEKNOVA INC",
+      "Alpha",
       "Alpha Teknova",
       "Alpha Teknova Inc",
       "alpha teknova",
@@ -2638,6 +2844,7 @@
   "TNGX": {
     "aliases": [
       "TANGO THERAPEUTICS INC",
+      "Tango",
       "Tango Inc",
       "Tango Therapeutics",
       "Tango Therapeutics Inc",
@@ -2650,6 +2857,7 @@
   "TNYA": {
     "aliases": [
       "TENAYA THERAPEUTICS INC",
+      "Tenaya",
       "Tenaya Inc",
       "Tenaya Therapeutics",
       "Tenaya Therapeutics Inc",
@@ -2662,6 +2870,7 @@
   "TRDA": {
     "aliases": [
       "ENTRADA THERAPEUTICS INC",
+      "Entrada",
       "Entrada Inc",
       "Entrada Therapeutics",
       "Entrada Therapeutics Inc",
@@ -2674,6 +2883,7 @@
   "TRVI": {
     "aliases": [
       "TREVI THERAPEUTICS INC",
+      "Trevi",
       "Trevi Inc",
       "Trevi Therapeutics",
       "Trevi Therapeutics Inc",
@@ -2686,6 +2896,7 @@
   "TSHA": {
     "aliases": [
       "TAYSHA GENE THERAPIES INC",
+      "Taysha",
       "Taysha Gene Therapies",
       "Taysha Gene Therapies Inc",
       "taysha gene therapies",
@@ -2696,6 +2907,7 @@
   "TVTX": {
     "aliases": [
       "TRAVERE THERAPEUTICS INC",
+      "Travere",
       "Travere Inc",
       "Travere Therapeutics",
       "Travere Therapeutics Inc",
@@ -2708,6 +2920,7 @@
   "TWST": {
     "aliases": [
       "TWIST BIOSCIENCE CORP",
+      "Twist",
       "Twist Bioscience",
       "Twist Bioscience Corp",
       "twist bioscience",
@@ -2717,6 +2930,7 @@
   },
   "TXG": {
     "aliases": [
+      "10X",
       "10X GENOMICS INC CLASS A",
       "10X Genomics Inc Class A",
       "10x genomics inc class a"
@@ -2726,6 +2940,7 @@
   "TYRA": {
     "aliases": [
       "TYRA BIOSCIENCES INC",
+      "Tyra",
       "Tyra Biosciences",
       "Tyra Biosciences Inc",
       "Tyra Inc",
@@ -2738,6 +2953,7 @@
   "UPB": {
     "aliases": [
       "UPSTREAM BIO INC",
+      "Upstream",
       "Upstream Bio",
       "Upstream Bio Inc",
       "upstream bio",
@@ -2748,6 +2964,7 @@
   "URGN": {
     "aliases": [
       "UROGEN PHARMA LTD",
+      "Urogen",
       "Urogen Ltd",
       "Urogen Pharma",
       "Urogen Pharma Ltd",
@@ -2760,6 +2977,7 @@
   "USD": {
     "aliases": [
       "USD CASH",
+      "Usd",
       "Usd Cash",
       "usd cash"
     ],
@@ -2768,6 +2986,7 @@
   "UTHR": {
     "aliases": [
       "UNITED THERAPEUTICS CORP",
+      "United",
       "United Corp",
       "United Therapeutics",
       "United Therapeutics Corp",
@@ -2800,6 +3019,7 @@
   "VERA": {
     "aliases": [
       "VERA THERAPEUTICS INC CLASS A",
+      "Vera",
       "Vera Inc Class A",
       "Vera Therapeutics Inc Class A",
       "vera inc class a",
@@ -2810,6 +3030,7 @@
   "VIR": {
     "aliases": [
       "VIR BIOTECHNOLOGY INC",
+      "Vir",
       "Vir Biotechnology",
       "Vir Biotechnology Inc",
       "Vir Inc",
@@ -2822,6 +3043,7 @@
   "VKTX": {
     "aliases": [
       "VIKING THERAPEUTICS INC",
+      "Viking",
       "Viking Inc",
       "Viking Therapeutics",
       "Viking Therapeutics Inc",
@@ -2834,6 +3056,7 @@
   "VNDA": {
     "aliases": [
       "VANDA PHARMACEUTICALS INC",
+      "Vanda",
       "Vanda Inc",
       "Vanda Pharmaceuticals",
       "Vanda Pharmaceuticals Inc",
@@ -2846,6 +3069,7 @@
   "VOR": {
     "aliases": [
       "VOR BIOPHARMA INC",
+      "Vor",
       "Vor Biopharma",
       "Vor Biopharma Inc",
       "vor biopharma",
@@ -2856,6 +3080,7 @@
   "VRDN": {
     "aliases": [
       "VIRIDIAN THERAPEUTICS INC",
+      "Viridian",
       "Viridian Inc",
       "Viridian Therapeutics",
       "Viridian Therapeutics Inc",
@@ -2868,6 +3093,7 @@
   "VRTX": {
     "aliases": [
       "VERTEX PHARMACEUTICALS INC",
+      "Vertex",
       "Vertex Inc",
       "Vertex Pharmaceuticals",
       "Vertex Pharmaceuticals Inc",
@@ -2890,6 +3116,7 @@
   "VYGR": {
     "aliases": [
       "VOYAGER THERAPEUTICS INC",
+      "Voyager",
       "Voyager Inc",
       "Voyager Therapeutics",
       "Voyager Therapeutics Inc",
@@ -2902,6 +3129,7 @@
   "WVE": {
     "aliases": [
       "WAVE LIFE SCIENCES LTD",
+      "Wave",
       "Wave Life Ltd",
       "Wave Life Sciences",
       "Wave Life Sciences Ltd",
@@ -2914,6 +3142,7 @@
   "XENE": {
     "aliases": [
       "XENON PHARMACEUTICALS INC",
+      "Xenon",
       "Xenon Inc",
       "Xenon Pharmaceuticals",
       "Xenon Pharmaceuticals Inc",
@@ -2936,6 +3165,7 @@
   "XTSLA": {
     "aliases": [
       "BLK CSH FND TREASURY SL AGENCY",
+      "Blk",
       "Blk Csh Fnd Treasury Sl Agency",
       "blk csh fnd treasury sl agency"
     ],
@@ -2944,6 +3174,7 @@
   "ZBIO": {
     "aliases": [
       "ZENAS BIOPHARMA INC",
+      "Zenas",
       "Zenas Biopharma",
       "Zenas Biopharma Inc",
       "zenas biopharma",
@@ -2954,6 +3185,7 @@
   "ZLAB": {
     "aliases": [
       "ZAI LABORATORY ADR REPRESENTING LT",
+      "Zai",
       "Zai Laboratory Adr Representing Lt",
       "zai laboratory adr representing lt"
     ],
@@ -2962,6 +3194,7 @@
   "ZVRA": {
     "aliases": [
       "ZEVRA THERAPEUTICS INC",
+      "Zevra",
       "Zevra Inc",
       "Zevra Therapeutics",
       "Zevra Therapeutics Inc",

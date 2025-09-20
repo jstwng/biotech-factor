@@ -25,6 +25,15 @@ QUEUE_PATH = DATA_PROCESSED / "manual_review_queue.csv"
 OUTPUT_PATH = DATA_PROCESSED / "matched_trials.parquet"
 
 
+GENERIC_TOKENS = {
+    "inc", "corp", "corporation", "ltd", "incorporated", "plc", "co", "llc",
+    "nv", "sa", "holdings", "group",
+    "pharmaceuticals", "pharmaceutical", "pharma", "therapeutics",
+    "biosciences", "sciences", "bio", "biotechnology", "biotech",
+    "medicines", "life", "the", "and", "&",
+}
+
+
 def _normalize(name: str) -> str:
     s = str(name).lower().strip()
     s = re.sub(r"[.,]", "", s)
@@ -35,6 +44,16 @@ def _normalize(name: str) -> str:
     )
     s = re.sub(r"\s+", " ", s).strip()
     return s
+
+
+def _informative_tokens(text: str, min_len: int) -> set[str]:
+    """Tokens of length >= min_len that are not in GENERIC_TOKENS."""
+    toks = re.split(r"[^a-z0-9]+", text.lower())
+    return {t for t in toks if len(t) >= min_len and t not in GENERIC_TOKENS}
+
+
+def _is_excluded(normalized_sponsor: str, exclusions: list[str]) -> bool:
+    return any(pat in normalized_sponsor for pat in exclusions)
 
 
 def _load_trials() -> pd.DataFrame:
@@ -83,6 +102,8 @@ def _match(
     norm_to_orig: dict[str, str],
     auto_threshold: float,
     review_lo: float,
+    exclusions: list[str],
+    min_shared_token_chars: int,
 ) -> pd.DataFrame:
     choices = list(norm_to_ticker.keys())
     out = []
@@ -92,6 +113,9 @@ def _match(
             out.append({**row.to_dict(), "ticker": None, "match_type": "unmatched", "match_score": 0.0, "matched_alias": None})
             continue
         norm = _normalize(sponsor)
+        if _is_excluded(norm, exclusions):
+            out.append({**row.to_dict(), "ticker": None, "match_type": "excluded", "match_score": 0.0, "matched_alias": None})
+            continue
         if norm in norm_to_ticker:
             out.append({**row.to_dict(), "ticker": norm_to_ticker[norm], "match_type": "exact", "match_score": 100.0, "matched_alias": norm_to_orig[norm]})
             continue
@@ -100,10 +124,16 @@ def _match(
             out.append({**row.to_dict(), "ticker": None, "match_type": "unmatched", "match_score": 0.0, "matched_alias": None})
             continue
         match_norm, score, _ = best
-        if score >= auto_threshold:
+        # Secondary validation: even at score >= auto_threshold, require
+        # at least one shared informative (non-generic) token between the
+        # sponsor and the matched alias. Otherwise the match is junk.
+        sponsor_toks = _informative_tokens(norm, min_shared_token_chars)
+        alias_toks = _informative_tokens(match_norm, min_shared_token_chars)
+        shared = sponsor_toks & alias_toks
+        if score >= auto_threshold and shared:
             mt = "auto_fuzzy"
             ticker = norm_to_ticker[match_norm]
-        elif score >= review_lo:
+        elif score >= review_lo and shared:
             mt = "manual_review"
             ticker = norm_to_ticker[match_norm]
         else:
@@ -175,12 +205,15 @@ def main(incorporate_manual: bool) -> None:
     norm_to_ticker, norm_to_orig = _build_alias_index(aliases)
 
     er = cfg["entity_resolution"]
+    exclusions = [_normalize(x) for x in er.get("sponsor_exclusions", [])]
     df = _match(
         trials,
         norm_to_ticker,
         norm_to_orig,
         auto_threshold=er["auto_accept_threshold"],
         review_lo=er["fuzzy_match_threshold"],
+        exclusions=exclusions,
+        min_shared_token_chars=er.get("min_shared_token_chars", 4),
     )
 
     if incorporate_manual:

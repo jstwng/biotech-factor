@@ -68,9 +68,54 @@ stats:
 
 # ---- Entity Resolution ----
 entity_resolution:
-  fuzzy_match_threshold: 85
+  # Post-Phase-1 review showed the 85-95 fuzzy range was pure noise for
+  # biotech names. We drop that tier by setting both thresholds to 95.
+  fuzzy_match_threshold: 95
   auto_accept_threshold: 95
-  manual_review_range: [85, 95]
+  manual_review_range: [95, 95]
+  # Minimum shared non-generic token length between sponsor and alias for an
+  # auto-accept to count. Blocks noise from near-identical boilerplate suffixes.
+  min_shared_token_chars: 4
+  # Sponsors to drop before matching (normalized -- see _normalize). Partial
+  # substring match: any excluded pattern contained in the normalized sponsor
+  # causes the trial to be marked excluded.
+  sponsor_exclusions:
+    # Big pharma not in IBB/XBI
+    - "novartis"
+    - "roche"
+    - "hoffmann-la roche"
+    - "pfizer"
+    - "astrazeneca"
+    - "merck sharp"
+    - "merck & co"
+    - "merck kgaa"
+    - "johnson & johnson"
+    - "janssen"
+    - "sanofi"
+    - "glaxosmithkline"
+    - "gsk"
+    - "eli lilly"
+    - "lilly"
+    - "bristol-myers squibb"
+    - "bristol myers squibb"
+    - "novo nordisk"
+    - "bayer"
+    - "takeda"
+    - "boehringer ingelheim"
+    - "teva"
+    # Acquired/bankrupt (not independent public firms during full sample)
+    - "alexion"
+    - "biohaven"
+    - "endo pharmaceuticals"
+    - "endo international"
+    # CROs (not drug developers)
+    - "oncotherapeutics"
+    - "covance"
+    - "icon plc"
+    - "icon clinical"
+    - "parexel"
+    - "ppd development"
+    - "iqvia"
 
 # ---- Random Seed ----
 random_seed: 42

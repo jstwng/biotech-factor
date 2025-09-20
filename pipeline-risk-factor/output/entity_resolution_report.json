@@ -1,15 +1,15 @@
 {
   "total_trials": 9405,
   "matched_by_type": {
-    "exact": 6528,
-    "unmatched": 2776,
-    "manual_review": 101
+    "exact": 6766,
+    "unmatched": 2272,
+    "excluded": 367
   },
-  "match_rate": 0.7048378522062733,
+  "match_rate": 0.7194045720361509,
   "unique_tickers_matched": 198,
-  "alias_coverage": 0.72,
+  "alias_coverage": 0.717391304347826,
   "score_quantiles": {
-    "0.25": 59.25925925925925,
+    "0.25": 61.53846153846154,
     "0.5": 100.0,
     "0.75": 100.0,
     "0.9": 100.0

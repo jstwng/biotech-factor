@@ -67,7 +67,7 @@ def normalize_phase(raw: str) -> str | None:
 
 
 def month_ends(start: str, end: str) -> pd.DatetimeIndex:
-    return pd.date_range(start=start, end=end, freq="ME")
+    return pd.date_range(start=start, end=end, freq="M")
 
 
 def active_mask(df: pd.DataFrame, t: pd.Timestamp) -> pd.Series:

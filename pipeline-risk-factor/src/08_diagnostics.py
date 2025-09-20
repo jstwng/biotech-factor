@@ -108,7 +108,9 @@ def cusum_stat(resid: np.ndarray) -> float:
 def _build_alt_factor(scores: pd.DataFrame, returns: pd.DataFrame, cfg: dict, q_lo: float, q_hi: float) -> pd.DataFrame:
     """Replicates Module 06 factor build with different quantile cutoffs."""
     lag = cfg["factor"]["return_lag"]
-    ret_pivot = returns.pivot(index=pd.to_datetime(returns["date"]), columns="ticker", values="return").sort_index()
+    rets = returns.copy()
+    rets["date"] = pd.to_datetime(rets["date"])
+    ret_pivot = rets.pivot(index="date", columns="ticker", values="return").sort_index()
     rows = []
     for t, sub in scores.groupby("date"):
         sub = sub[sub["pipeline_score"] > 0]
@@ -250,7 +252,7 @@ def main() -> None:
         tercile_pr = _build_alt_factor(scores, const_returns.rename(columns={"return": "return"}), cfg, 1/3, 2/3)
         rob["tercile"] = _beta_pr_for_factor(df, tercile_pr, nw_lag)
         # Uniform success rates
-        months = pd.date_range(cfg["start_date"], cfg["end_date"], freq="ME")
+        months = pd.date_range(cfg["start_date"], cfg["end_date"], freq="M")
         uniform_pr = _uniform_factor(matched, months, const_returns, cfg)
         rob["uniform_rates"] = _beta_pr_for_factor(df, uniform_pr, nw_lag)
         # Sub-periods
