@@ -1,4 +1,4 @@
-# Pipeline Risk Factor — Phase 3 dual-spec results summary
+## Pipeline Risk Factor — Phase 3 dual-spec results summary
 
 ## Table 1. Factor Summary Statistics
 
