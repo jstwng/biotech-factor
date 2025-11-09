@@ -1,0 +1,44 @@
+{
+  "full_sample": {
+    "n": 119,
+    "cum_return": 1.7194364389463992,
+    "ann_return": 0.10614739164777975,
+    "ann_vol": 0.3502847664019317,
+    "sharpe": 0.3030317097089564,
+    "max_drawdown": -0.6790003297845072,
+    "calmar": 0.15632892502639506,
+    "hit_rate": 0.4789915966386555,
+    "best_month": 0.5298215171747177,
+    "worst_month": -0.161758794505118,
+    "longest_win_streak": 7,
+    "longest_loss_streak": 8
+  },
+  "pre_2020": {
+    "n": 59,
+    "cum_return": 1.3600660210811863,
+    "ann_return": 0.19082784213283555,
+    "ann_vol": 0.26991024125765567,
+    "sharpe": 0.7070048222092905,
+    "max_drawdown": -0.30283242302020585,
+    "calmar": 0.6301433651974014,
+    "hit_rate": 0.5254237288135594,
+    "best_month": 0.2142233949615744,
+    "worst_month": -0.161758794505118,
+    "longest_win_streak": 7,
+    "longest_loss_streak": 6
+  },
+  "post_2020": {
+    "n": 60,
+    "cum_return": 0.1522713409943417,
+    "ann_return": 0.028752614787610264,
+    "ann_vol": 0.41630169080075063,
+    "sharpe": 0.06906677398380247,
+    "max_drawdown": -0.6790003297845073,
+    "calmar": 0.04234550931180757,
+    "hit_rate": 0.43333333333333335,
+    "best_month": 0.5298215171747177,
+    "worst_month": -0.1581984721220108,
+    "longest_win_streak": 6,
+    "longest_loss_streak": 8
+  }
+}
