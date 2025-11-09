@@ -1,4 +1,4 @@
-# Pipeline Risk as a Systematic Factor in Biotech Equities Pricing
+## Pipeline Risk as a Systematic Factor in Biotech Equities Pricing
 
 We propose and test a novel monthly "pipeline risk" factor constructed from ClinicalTrials.gov, tested as a variation of the Fama-French five-factor model on IBB and XBI.
 
