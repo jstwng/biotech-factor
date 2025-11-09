@@ -1,0 +1,122 @@
+# ---- Sample Period ----
+start_date: "2015-01-01"
+end_date: "2024-12-31"
+frequency: "monthly"
+
+# ---- ETFs ----
+etfs:
+  - ticker: "IBB"
+    name: "iShares Nasdaq Biotechnology ETF"
+    weighting: "cap-weighted"
+  - ticker: "XBI"
+    name: "SPDR S&P Biotech ETF"
+    weighting: "equal-weighted"
+
+# ---- Fama-French ----
+ff_url: "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/F-F_Research_Data_5_Factors_2x3_CSV.zip"
+ff_factors: ["Mkt-RF", "SMB", "HML", "RMW", "CMA", "RF"]
+
+# ---- ClinicalTrials.gov API ----
+ct_api_base: "https://clinicaltrials.gov/api/v2/studies"
+ct_api_delay_seconds: 0.5
+ct_study_type: "INTERVENTIONAL"
+ct_fields:
+  - "NCTId"
+  - "BriefTitle"
+  - "OverallStatus"
+  - "Phase"
+  - "Condition"
+  - "LeadSponsorName"
+  - "StartDate"
+  - "PrimaryCompletionDate"
+  - "StatusVerifiedDate"
+  - "CollaboratorName"
+
+# ---- Success Rates (Wong et al. 2019, cumulative P(Approval)) ----
+# Updated Phase 3: phase weights revised to BIO 2021 compounded P(approval).
+success_rates:
+  overall:
+    "Phase 1":         0.138
+    "Phase 1/Phase 2": 0.169
+    "Phase 2":         0.309
+    "Phase 2/Phase 3": 0.449
+    "Phase 3":         0.588
+    "Phase 4":         1.000
+    "NDA/BLA":         0.855
+  disease_multipliers:
+    "Oncology":              0.246
+    "Infectious Disease":    1.449
+    "Cardiovascular":        0.652
+    "CNS/Neurology":         0.435
+    "Rare Disease":          1.014
+    "Metabolic/Endocrine":   0.797
+    "Other":                 1.000
+
+# ---- Factor Construction ----
+factor:
+  quintile_long: 0.80
+  quintile_short: 0.20
+  weighting: "equal"
+  return_lag: 1
+
+# ---- Statistical Testing ----
+stats:
+  newey_west_lag: 3
+  significance_level: 0.05
+  bonferroni_tests: 2
+  rolling_window_months: 36
+  ljung_box_lags: [1, 3, 6, 12]
+
+# ---- Entity Resolution ----
+entity_resolution:
+  # Post-Phase-1 review showed the 85-95 fuzzy range was pure noise for
+  # biotech names. We drop that tier by setting both thresholds to 95.
+  fuzzy_match_threshold: 95
+  auto_accept_threshold: 95
+  manual_review_range: [95, 95]
+  # Minimum shared non-generic token length between sponsor and alias for an
+  # auto-accept to count. Blocks noise from near-identical boilerplate suffixes.
+  min_shared_token_chars: 4
+  # Sponsors to drop before matching (normalized -- see _normalize). Partial
+  # substring match: any excluded pattern contained in the normalized sponsor
+  # causes the trial to be marked excluded.
+  sponsor_exclusions:
+    # Big pharma not in IBB/XBI
+    - "novartis"
+    - "roche"
+    - "hoffmann-la roche"
+    - "pfizer"
+    - "astrazeneca"
+    - "merck sharp"
+    - "merck & co"
+    - "merck kgaa"
+    - "johnson & johnson"
+    - "janssen"
+    - "sanofi"
+    - "glaxosmithkline"
+    - "gsk"
+    - "eli lilly"
+    - "lilly"
+    - "bristol-myers squibb"
+    - "bristol myers squibb"
+    - "novo nordisk"
+    - "bayer"
+    - "takeda"
+    - "boehringer ingelheim"
+    - "teva"
+    # Acquired/bankrupt (not independent public firms during full sample)
+    - "alexion"
+    - "biohaven"
+    - "endo pharmaceuticals"
+    - "endo international"
+    # CROs (not drug developers)
+    - "oncotherapeutics"
+    - "covance"
+    - "icon plc"
+    - "icon clinical"
+    - "parexel"
+    - "ppd development"
+    - "iqvia"
+
+# ---- Random Seed ----
+random_seed: 42
