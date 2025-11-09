@@ -1,4 +1,4 @@
-# Phase 3 Results Summary
+## Results Summary
 
 Sample: 2015-01 through 2024-12, monthly frequency. 119 return observations after the 1-month score→return lag. All results below reflect the Phase 3 post-audit pipeline (all code fixes applied, dual-factor construction, cleaned returns). The uniform-rates specification is the **primary** one; the disease-adjusted specification is reported as a **secondary** robustness.
 
