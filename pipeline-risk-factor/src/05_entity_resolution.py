@@ -11,6 +11,7 @@ from __future__ import annotations
 import argparse
 import json
 import re
+import unicodedata
 from pathlib import Path
 
 import pandas as pd
@@ -34,14 +35,32 @@ GENERIC_TOKENS = {
 }
 
 
+FOREIGN_SUFFIXES = [
+    " sarl", " gmbh", " bvba", " spa", " s p a", " srl", " s r l",
+    " gk", " limited", " pty", " ag", " oyj", " aps", " kk",
+    " a s", " a/s", " kgaa",
+]
+
+
+def _strip_diacritics(s: str) -> str:
+    s = unicodedata.normalize("NFKD", s)
+    return "".join(c for c in s if not unicodedata.combining(c))
+
+
 def _normalize(name: str) -> str:
-    s = str(name).lower().strip()
+    s = _strip_diacritics(str(name)).lower().strip()
     s = re.sub(r"[.,]", "", s)
+    # Drop common English + foreign legal suffixes. The English list was
+    # already here; the foreign list is new (Phase 3 audit Finding 1.3).
     s = re.sub(
         r"\b(inc|corp|corporation|ltd|incorporated|plc|co|llc|nv|sa|holdings|group)\b\.?",
         "",
         s,
     )
+    for suf in FOREIGN_SUFFIXES:
+        if s.endswith(suf):
+            s = s[: -len(suf)]
+        s = s.replace(suf, "")
     s = re.sub(r"\s+", " ", s).strip()
     return s
 

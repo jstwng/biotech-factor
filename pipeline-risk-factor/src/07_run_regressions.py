@@ -26,10 +26,10 @@ TABLE_PATH = OUTPUT_DIR / "tables" / "regression_table.md"
 FF5_FACTORS = ["Mkt-RF", "SMB", "HML", "RMW", "CMA"]
 
 
-def _align(etf_col: str, etf: pd.DataFrame, ff5: pd.DataFrame, pr: pd.DataFrame) -> pd.DataFrame:
+def _align(etf_col: str, etf: pd.DataFrame, ff5: pd.DataFrame, pr: pd.DataFrame, pr_col: str = "PR") -> pd.DataFrame:
     df = etf[["date", etf_col]].rename(columns={etf_col: "ret"})
     df = df.merge(ff5, on="date", how="inner")
-    df = df.merge(pr[["date", "PR"]], on="date", how="inner")
+    df = df.merge(pr[["date", pr_col]].rename(columns={pr_col: "PR"}), on="date", how="inner")
     df["excess"] = df["ret"] - df["RF"]
     return df.dropna().reset_index(drop=True)
 
@@ -126,6 +126,37 @@ def _render_table(results: dict) -> str:
     return "\n".join(rows)
 
 
+SPECS = {"uniform": "PR_uniform", "adjusted": "PR_adjusted"}
+
+
+def _run_one_etf(etf_ticker: str, pr_col: str, etf: pd.DataFrame, ff5: pd.DataFrame, pr: pd.DataFrame, nw_lag: int, bonferroni_k: int) -> tuple[dict, dict]:
+    col = f"{etf_ticker}_return"
+    df = _align(col, etf, ff5, pr, pr_col=pr_col)
+    y = df["excess"]
+    X1 = df[FF5_FACTORS]
+    X2 = df[FF5_FACTORS + ["PR"]]
+    m1 = _fit(y, X1, nw_lag)
+    m2 = _fit(y, X2, nw_lag)
+    r1 = _model_summary(m1)
+    r2 = _model_summary(m2)
+    comparison = {
+        "delta_adj_r_squared": r2["adj_r_squared"] - r1["adj_r_squared"],
+        "delta_aic": r2["aic"] - r1["aic"],
+        "delta_bic": r2["bic"] - r1["bic"],
+        "partial_f_test": _partial_f(m1, m2, len(df)),
+    }
+    pr_p = r2["coefficients"]["PR"]["p_value"]
+    comparison["pr_p_raw"] = pr_p
+    comparison["pr_p_bonferroni"] = min(pr_p * bonferroni_k, 1.0)
+    out = {"model1": r1, "model2": r2, "comparison": comparison, "n_obs": len(df)}
+    resid = {
+        "dates": df["date"].tolist(),
+        "model1": m1.resid.tolist(),
+        "model2": m2.resid.tolist(),
+    }
+    return out, resid
+
+
 def main() -> None:
     cfg = load_config()
     nw_lag = cfg["stats"]["newey_west_lag"]
@@ -138,45 +169,35 @@ def main() -> None:
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     (OUTPUT_DIR / "tables").mkdir(parents=True, exist_ok=True)
 
-    results: dict = {}
-    residuals: dict = {}
-    for spec in cfg["etfs"]:
-        t = spec["ticker"]
-        col = f"{t}_return"
-        if col not in etf.columns:
-            log.warning("missing %s in etf_returns", col)
-            continue
-        df = _align(col, etf, ff5, pr)
-        y = df["excess"]
-        X1 = df[FF5_FACTORS]
-        X2 = df[FF5_FACTORS + ["PR"]]
-        m1 = _fit(y, X1, nw_lag)
-        m2 = _fit(y, X2, nw_lag)
+    all_results: dict = {}
+    all_residuals: dict = {}
+    for spec_name, pr_col in SPECS.items():
+        all_results[spec_name] = {}
+        all_residuals[spec_name] = {}
+        for spec in cfg["etfs"]:
+            t = spec["ticker"]
+            col = f"{t}_return"
+            if col not in etf.columns:
+                continue
+            out, resid = _run_one_etf(t, pr_col, etf, ff5, pr, nw_lag, bonferroni_k)
+            all_results[spec_name][t] = out
+            all_residuals[spec_name][t] = resid
+            log.info("[%s] %s: n=%d, beta_PR=%.4f (p=%.4f)",
+                     spec_name, t, out["n_obs"],
+                     out["model2"]["coefficients"]["PR"]["estimate"],
+                     out["model2"]["coefficients"]["PR"]["p_value"])
 
-        r1 = _model_summary(m1)
-        r2 = _model_summary(m2)
-        comparison = {
-            "delta_adj_r_squared": r2["adj_r_squared"] - r1["adj_r_squared"],
-            "delta_aic": r2["aic"] - r1["aic"],
-            "delta_bic": r2["bic"] - r1["bic"],
-            "partial_f_test": _partial_f(m1, m2, len(df)),
-        }
-        pr_p = r2["coefficients"]["PR"]["p_value"]
-        comparison["pr_p_raw"] = pr_p
-        comparison["pr_p_bonferroni"] = min(pr_p * bonferroni_k, 1.0)
+    RESULTS_JSON.write_text(json.dumps(all_results, indent=2, default=str))
+    RESIDUALS_PKL.write_bytes(pickle.dumps(all_residuals))
 
-        results[t] = {"model1": r1, "model2": r2, "comparison": comparison, "n_obs": len(df)}
-        residuals[t] = {
-            "dates": df["date"].tolist(),
-            "model1": m1.resid.tolist(),
-            "model2": m2.resid.tolist(),
-        }
-        log.info("%s: n=%d, beta_PR=%.4f (p=%.4f)", t, len(df), r2["coefficients"]["PR"]["estimate"], pr_p)
-
-    RESULTS_JSON.write_text(json.dumps(results, indent=2, default=str))
-    RESIDUALS_PKL.write_bytes(pickle.dumps(residuals))
-    TABLE_PATH.write_text(_render_table(results) + "\n")
-    log.info("wrote %s, %s, %s", RESULTS_JSON, RESIDUALS_PKL, TABLE_PATH)
+    # Render both tables; the uniform spec is the primary one.
+    for spec_name in SPECS:
+        tbl = _render_table(all_results[spec_name])
+        path = OUTPUT_DIR / "tables" / f"regression_table_{spec_name}.md"
+        path.write_text(tbl + "\n")
+    # Keep regression_table.md as an alias for the primary (uniform) spec
+    TABLE_PATH.write_text(_render_table(all_results["uniform"]) + "\n")
+    log.info("wrote %s and per-spec tables", RESULTS_JSON)
 
 
 if __name__ == "__main__":

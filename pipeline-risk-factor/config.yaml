@@ -33,15 +33,16 @@ ct_fields:
   - "CollaboratorName"
 
 # ---- Success Rates (Wong et al. 2019, cumulative P(Approval)) ----
+# Updated Phase 3: phase weights revised to BIO 2021 compounded P(approval).
 success_rates:
   overall:
     "Phase 1":         0.138
-    "Phase 1/Phase 2": 0.138
-    "Phase 2":         0.214
-    "Phase 2/Phase 3": 0.214
-    "Phase 3":         0.500
+    "Phase 1/Phase 2": 0.169
+    "Phase 2":         0.309
+    "Phase 2/Phase 3": 0.449
+    "Phase 3":         0.588
     "Phase 4":         1.000
-    "NDA/BLA":         0.832
+    "NDA/BLA":         0.855
   disease_multipliers:
     "Oncology":              0.246
     "Infectious Disease":    1.449

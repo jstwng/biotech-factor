@@ -34,9 +34,9 @@ TABLES_DIR = OUTPUT_DIR / "tables"
 FF5_FACTORS = ["Mkt-RF", "SMB", "HML", "RMW", "CMA"]
 
 
-def _merge(etf_col: str, etf: pd.DataFrame, ff5: pd.DataFrame, pr: pd.DataFrame) -> pd.DataFrame:
+def _merge(etf_col: str, etf: pd.DataFrame, ff5: pd.DataFrame, pr: pd.DataFrame, pr_col: str = "PR") -> pd.DataFrame:
     df = etf[["date", etf_col]].rename(columns={etf_col: "ret"})
-    df = df.merge(ff5, on="date").merge(pr[["date", "PR"]], on="date")
+    df = df.merge(ff5, on="date").merge(pr[["date", pr_col]].rename(columns={pr_col: "PR"}), on="date")
     df["excess"] = df["ret"] - df["RF"]
     return df.dropna().reset_index(drop=True)
 
@@ -45,8 +45,8 @@ def _fit(y: pd.Series, X: pd.DataFrame, nw_lag: int):
     return sm.OLS(y, sm.add_constant(X)).fit(cov_type="HAC", cov_kwds={"maxlags": nw_lag})
 
 
-def factor_correlations(ff5: pd.DataFrame, pr: pd.DataFrame) -> pd.DataFrame:
-    merged = ff5.merge(pr[["date", "PR"]], on="date")
+def factor_correlations(ff5: pd.DataFrame, pr: pd.DataFrame, pr_col: str = "PR") -> pd.DataFrame:
+    merged = ff5.merge(pr[["date", pr_col]].rename(columns={pr_col: "PR"}), on="date")
     return merged[FF5_FACTORS + ["PR"]].corr()
 
 
@@ -180,11 +180,86 @@ def _beta_pr_for_factor(etf_df: pd.DataFrame, alt_pr: pd.DataFrame, nw_lag: int)
     }
 
 
-def main() -> None:
-    cfg = load_config()
+SPECS = {"uniform": "PR_uniform", "adjusted": "PR_adjusted"}
+
+
+def _run_one_spec(spec_name: str, pr_col: str, etf, ff5, pr, residuals_spec, scores_spec, cfg) -> dict:
     nw_lag = cfg["stats"]["newey_west_lag"]
     lb_lags = cfg["stats"]["ljung_box_lags"]
     window = cfg["stats"]["rolling_window_months"]
+
+    # Factor correlations + heatmap (one per spec)
+    corr = factor_correlations(ff5, pr, pr_col=pr_col)
+    fig, ax = plt.subplots(figsize=(6, 5), dpi=300)
+    sns.heatmap(corr, annot=True, cmap="coolwarm", center=0, ax=ax, fmt=".2f")
+    fig.tight_layout()
+    fig.savefig(FIG_DIR / f"factor_correlations_{spec_name}.png")
+    plt.close(fig)
+
+    result: dict = {
+        "factor_correlations": corr.to_dict(),
+        "models": {},
+        "rolling": {},
+        "sub_periods": {},
+        "cross_sectional_dispersion": (
+            scores_spec.groupby("date")[f"pipeline_score_{spec_name}"].std().dropna().describe().to_dict()
+        ),
+    }
+
+    for etf_spec in cfg["etfs"]:
+        t = etf_spec["ticker"]
+        col = f"{t}_return"
+        if col not in etf.columns:
+            continue
+        df = _merge(col, etf, ff5, pr, pr_col=pr_col)
+
+        result["models"][t] = {
+            "vif_ff5_pr": vif(df),
+            "model1_residual_tests": residual_tests(pd.Series(residuals_spec[t]["model1"]), df[FF5_FACTORS], lb_lags),
+            "model2_residual_tests": residual_tests(pd.Series(residuals_spec[t]["model2"]), df[FF5_FACTORS + ["PR"]], lb_lags),
+            "cusum_model2": cusum_stat(np.array(residuals_spec[t]["model2"])),
+        }
+        residual_figure(df["date"], pd.Series(residuals_spec[t]["model1"]), FIG_DIR / f"residual_{spec_name}_{t}_FF5.png")
+        residual_figure(df["date"], pd.Series(residuals_spec[t]["model2"]), FIG_DIR / f"residual_{spec_name}_{t}_FF5_PR.png")
+
+        if len(df) >= window:
+            rb = rolling_beta(df, window, nw_lag)
+            result["rolling"][t] = rb.to_dict(orient="list")
+            fig, ax = plt.subplots(figsize=(9, 4), dpi=300)
+            ax.plot(rb["end_date"], rb["beta_PR"])
+            ax.fill_between(
+                rb["end_date"],
+                rb["beta_PR"] - 1.96 * rb["se_PR"],
+                rb["beta_PR"] + 1.96 * rb["se_PR"],
+                alpha=0.2,
+            )
+            ax.axhline(0, color="k", linewidth=0.5)
+            ax.set_xlabel("Window end date")
+            ax.set_ylabel(r"$\beta_{PR}$")
+            fig.tight_layout()
+            fig.savefig(FIG_DIR / f"rolling_beta_pr_{spec_name}_{t.lower()}.png")
+            plt.close(fig)
+
+        # Sub-period splits
+        sp: dict = {}
+        for label, lo, hi in [("2015_2019", "2015-01-01", "2019-12-31"), ("2020_2024", "2020-01-01", "2024-12-31")]:
+            sub = df[(df["date"] >= lo) & (df["date"] <= hi)]
+            if len(sub) < 24:
+                sp[label] = {"beta_PR": None, "p_value": None, "n": len(sub)}
+                continue
+            m = _fit(sub["excess"], sub[FF5_FACTORS + ["PR"]], nw_lag)
+            sp[label] = {
+                "beta_PR": float(m.params["PR"]),
+                "p_value": float(m.pvalues["PR"]),
+                "n": int(len(sub)),
+            }
+        result["sub_periods"][t] = sp
+
+    return result
+
+
+def main() -> None:
+    cfg = load_config()
 
     FIG_DIR.mkdir(parents=True, exist_ok=True)
     TABLES_DIR.mkdir(parents=True, exist_ok=True)
@@ -193,93 +268,14 @@ def main() -> None:
     ff5 = pd.read_csv(FF5, parse_dates=["date"])
     pr = pd.read_csv(FACTOR, parse_dates=["date"])
     scores = pd.read_parquet(SCORES)
-    residuals = pickle.loads(RESIDUALS.read_bytes())
-    matched = pd.read_parquet(DATA_PROCESSED / "matched_trials.parquet")
-    const_returns = pd.read_csv(DATA_RAW / "returns" / "constituent_returns.csv", parse_dates=["date"])
+    all_residuals = pickle.loads(RESIDUALS.read_bytes())  # nested by spec
 
-    # A. Factor diagnostics
-    corr = factor_correlations(ff5, pr)
-    fig, ax = plt.subplots(figsize=(6, 5), dpi=300)
-    sns.heatmap(corr, annot=True, cmap="coolwarm", center=0, ax=ax, fmt=".2f")
-    fig.tight_layout()
-    fig.savefig(FIG_DIR / "factor_correlations.png")
-    plt.close(fig)
-
-    diagnostics: dict = {
-        "factor_correlations": corr.to_dict(),
-        "models": {},
-        "rolling": {},
-        "robustness": {},
-        "cross_sectional_dispersion": scores.groupby("date")["pipeline_score"].std().dropna().describe().to_dict(),
-    }
-
-    for spec in cfg["etfs"]:
-        t = spec["ticker"]
-        col = f"{t}_return"
-        if col not in etf.columns:
-            continue
-        df = _merge(col, etf, ff5, pr)
-        diagnostics["models"][t] = {
-            "vif_ff5_pr": vif(df),
-            "model1_residual_tests": residual_tests(pd.Series(residuals[t]["model1"]), df[FF5_FACTORS], lb_lags),
-            "model2_residual_tests": residual_tests(pd.Series(residuals[t]["model2"]), df[FF5_FACTORS + ["PR"]], lb_lags),
-            "cusum_model2": cusum_stat(np.array(residuals[t]["model2"])),
-        }
-        residual_figure(df["date"], pd.Series(residuals[t]["model1"]), FIG_DIR / f"residual_diagnostics_{t}_FF5.png")
-        residual_figure(df["date"], pd.Series(residuals[t]["model2"]), FIG_DIR / f"residual_diagnostics_{t}_FF5_PR.png")
-
-        # Rolling beta
-        if len(df) >= window:
-            rb = rolling_beta(df, window, nw_lag)
-            diagnostics["rolling"][t] = rb.to_dict(orient="list")
-            fig, ax = plt.subplots(figsize=(9, 4), dpi=300)
-            ax.plot(rb["end_date"], rb["beta_PR"], label="beta_PR")
-            ax.fill_between(
-                rb["end_date"],
-                rb["beta_PR"] - 1.96 * rb["se_PR"],
-                rb["beta_PR"] + 1.96 * rb["se_PR"],
-                alpha=0.2,
-            )
-            ax.axhline(0, color="k", linewidth=0.5)
-            ax.set_title(f"Rolling 36-month beta_PR for {t}")
-            fig.tight_layout()
-            fig.savefig(FIG_DIR / f"rolling_beta_pr_{t}.png")
-            plt.close(fig)
-
-        # Robustness
-        rob: dict = {}
-        # Tercile sort
-        tercile_pr = _build_alt_factor(scores, const_returns.rename(columns={"return": "return"}), cfg, 1/3, 2/3)
-        rob["tercile"] = _beta_pr_for_factor(df, tercile_pr, nw_lag)
-        # Uniform success rates
-        months = pd.date_range(cfg["start_date"], cfg["end_date"], freq="M")
-        uniform_pr = _uniform_factor(matched, months, const_returns, cfg)
-        rob["uniform_rates"] = _beta_pr_for_factor(df, uniform_pr, nw_lag)
-        # Sub-periods
-        for label, lo, hi in [("2015_2019", "2015-01-01", "2019-12-31"), ("2020_2024", "2020-01-01", "2024-12-31")]:
-            sub = df[(df["date"] >= lo) & (df["date"] <= hi)]
-            if len(sub) < 24:
-                rob[f"subperiod_{label}"] = {"beta_PR": None, "p_value": None, "n": len(sub)}
-                continue
-            m = _fit(sub["excess"], sub[FF5_FACTORS + ["PR"]], nw_lag)
-            rob[f"subperiod_{label}"] = {
-                "beta_PR": float(m.params["PR"]),
-                "p_value": float(m.pvalues["PR"]),
-                "n": int(len(sub)),
-            }
-        diagnostics["robustness"][t] = rob
+    diagnostics: dict = {}
+    for spec_name, pr_col in SPECS.items():
+        diagnostics[spec_name] = _run_one_spec(spec_name, pr_col, etf, ff5, pr, all_residuals[spec_name], scores, cfg)
 
     (OUTPUT_DIR / "diagnostics.json").write_text(json.dumps(diagnostics, indent=2, default=str))
-
-    # Robustness table
-    lines = ["| ETF | Spec | beta_PR | p | n |", "|---|---|---|---|---|"]
-    for t, rob in diagnostics["robustness"].items():
-        for k, v in rob.items():
-            b = v.get("beta_PR")
-            p = v.get("p_value")
-            lines.append(f"| {t} | {k} | {b:+.4f} | {p:.4f} | {v['n']} |" if b is not None else f"| {t} | {k} | -- | -- | {v['n']} |")
-    (TABLES_DIR / "robustness_table.md").write_text("\n".join(lines) + "\n")
-    log.info("wrote diagnostics.json and robustness_table.md")
+    log.info("wrote diagnostics.json (dual-spec)")
 
 
 if __name__ == "__main__":

@@ -22,6 +22,21 @@ def test_normalize_phase_variants():
     assert bf.normalize_phase("PHASE1,PHASE2") == "Phase 1/Phase 2"
     assert bf.normalize_phase("NA") is None
     assert bf.normalize_phase("") is None
+    # Phase 3 audit: EARLY_PHASE1 must map to Phase 1, not fall through.
+    assert bf.normalize_phase("EARLY_PHASE1") == "Phase 1"
+    assert bf.normalize_phase("Early Phase 1") == "Phase 1"
+
+
+def test_active_mask_closed_status_no_pcd():
+    # Phase 3 audit Finding 2.5: COMPLETED with null PCD must be inactive.
+    t = pd.Timestamp("2020-06-30")
+    df = pd.DataFrame([
+        {"start_date": "2019-01-01", "primary_completion_date": None, "overall_status": "COMPLETED"},
+        {"start_date": "2019-01-01", "primary_completion_date": None, "overall_status": "TERMINATED"},
+        {"start_date": "2019-01-01", "primary_completion_date": None, "overall_status": "WITHDRAWN"},
+    ])
+    mask = bf.active_mask(df, t)
+    assert mask.tolist() == [False, False, False]
 
 
 def test_classify_area():
@@ -49,7 +64,10 @@ def test_build_factor_quintiles():
     }
     dates = [pd.Timestamp("2020-01-31")] * 10
     tickers = [f"T{i}" for i in range(10)]
-    scores = pd.DataFrame({"date": dates, "ticker": tickers, "pipeline_score": np.arange(10, dtype=float) + 1})
+    scores = pd.DataFrame({
+        "date": dates, "ticker": tickers,
+        "pipeline_score_uniform": np.arange(10, dtype=float) + 1,
+    })
 
     # returns realized one month later
     ret_date = pd.Timestamp("2020-02-29")
@@ -58,7 +76,7 @@ def test_build_factor_quintiles():
         "ticker": tickers,
         "return": [0.10, 0.08, 0.06, 0.04, 0.02, 0.00, -0.02, -0.04, -0.06, -0.08],
     })
-    factor = bf.build_factor(scores, returns, cfg)
+    factor = bf.build_factor(scores, returns, cfg, score_col="pipeline_score_uniform")
     assert len(factor) == 1
     row = factor.iloc[0]
     # longs: top 20% (scores 9, 10), shorts: bottom 20% (scores 1, 2)
